@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SRB2CB" />
+		<Option platforms="Windows;" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Win32 Release">
+				<Option output="..\..\bin\Mingw\SRB2CB" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="..\..\bin\Mingw" />
+				<Option object_output="..\..\objs\VC\Release\Win32" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option parameters='-win -file &quot;newdw.wad&quot; -warp 1' />
+				<Compiler>
+					<Add option="-Os" />
+					<Add option="-fno-exceptions" />
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-DUSEASM" />
+					<Add option="-DHAVE_PNG" />
+					<Add option="-DCLIENTSIDE" />
+					<Add option="-DRABBIT" />
+					<Add option="-DSTDC_HEADERS" />
+					<Add option="-DUSE_WGL_SWAP" />
+					<Add directory="..\..\tools\libpng-src" />
+					<Add directory="..\..\tools\zlib" />
+				</Compiler>
+				<Linker>
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="winspool" />
+					<Add library="comdlg32" />
+					<Add library="advapi32" />
+					<Add library="shell32" />
+					<Add library="ole32" />
+					<Add library="oleaut32" />
+					<Add library="uuid" />
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+					<Add library="dxguid" />
+					<Add library="winmm" />
+					<Add library="ws2_32" />
+					<Add library="dinput" />
+					<Add library="..\..\tools\libpng-src\projects\libpng.a" />
+					<Add library="..\..\tools\zlib\win32\libz.a" />
+					<Add library="opengl32" />
+					<Add library="glu32" />
+				</Linker>
+			</Target>
+			<Target title="Win32 Debug">
+				<Option output="..\..\bin\Mingw\SRB2CBDbg" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="..\..\bin\Mingw" />
+				<Option object_output="..\..\objs\VC\Release\Win32" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option parameters='-win -file &quot;newdw.wad&quot; +map map01' />
+				<Compiler>
+					<Add option="-Os" />
+					<Add option="-g" />
+					<Add option="-fno-exceptions" />
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-DUSEASM" />
+					<Add option="-DHAVE_PNG" />
+					<Add option="-DCLIENTSIDE" />
+					<Add option="-DRABBIT" />
+					<Add option="-DSTDC_HEADERS" />
+					<Add option="-DUSE_WGL_SWAP" />
+					<Add directory="..\..\tools\libpng-src" />
+					<Add directory="..\..\tools\zlib" />
+				</Compiler>
+				<Linker>
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="winspool" />
+					<Add library="comdlg32" />
+					<Add library="advapi32" />
+					<Add library="shell32" />
+					<Add library="ole32" />
+					<Add library="oleaut32" />
+					<Add library="uuid" />
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+					<Add library="dxguid" />
+					<Add library="winmm" />
+					<Add library="ws2_32" />
+					<Add library="dinput" />
+					<Add library="..\..\tools\libpng-src\projects\libpng.a" />
+					<Add library="..\..\tools\zlib\win32\libz.a" />
+					<Add library="opengl32" />
+					<Add library="glu32" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="..\..\doc\copying">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="..\..\doc\faq.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="..\..\doc\source.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="..\..\readme.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="..\am_map.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\am_map.h" />
+		<Unit filename="..\asm_defs.inc" />
+		<Unit filename="..\byteptr.h" />
+		<Unit filename="..\command.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\command.h" />
+		<Unit filename="..\comptime.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\console.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\console.h" />
+		<Unit filename="..\d_clisrv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\d_clisrv.h" />
+		<Unit filename="..\d_event.h" />
+		<Unit filename="..\d_main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\d_main.h" />
+		<Unit filename="..\d_net.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\d_net.h" />
+		<Unit filename="..\d_netcmd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\d_netcmd.h" />
+		<Unit filename="..\d_netfil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\d_netfil.h" />
+		<Unit filename="..\d_player.h" />
+		<Unit filename="..\d_think.h" />
+		<Unit filename="..\d_ticcmd.h" />
+		<Unit filename="..\dehacked.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\dehacked.h" />
+		<Unit filename="..\doomdata.h" />
+		<Unit filename="..\doomdef.h" />
+		<Unit filename="..\doomstat.h" />
+		<Unit filename="..\doomtype.h" />
+		<Unit filename="..\dstrings.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\dstrings.h" />
+		<Unit filename="..\f_finale.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\f_finale.h" />
+		<Unit filename="..\f_wipe.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\filesrch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\filesrch.h" />
+		<Unit filename="..\g_game.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\g_game.h" />
+		<Unit filename="..\g_input.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\g_input.h" />
+		<Unit filename="..\g_state.h" />
+		<Unit filename="..\hardware\hw3dsdrv.h" />
+		<Unit filename="..\hardware\hw3sound.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\hardware\hw3sound.h" />
+		<Unit filename="..\hardware\hw_bsp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\hardware\hw_cache.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\hardware\hw_clip.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\hardware\hw_clip.h" />
+		<Unit filename="..\hardware\hw_data.h" />
+		<Unit filename="..\hardware\hw_defs.h" />
+		<Unit filename="..\hardware\hw_dll.h" />
+		<Unit filename="..\hardware\hw_draw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\hardware\hw_drv.h" />
+		<Unit filename="..\hardware\hw_glob.h" />
+		<Unit filename="..\hardware\hw_light.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\hardware\hw_light.h" />
+		<Unit filename="..\hardware\hw_main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\hardware\hw_main.h" />
+		<Unit filename="..\hardware\hw_md2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\hardware\hw_md2.h" />
+		<Unit filename="..\hardware\hw_trick.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\hardware\hws_data.h" />
+		<Unit filename="..\hardware\r_opengl\ogl_win.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\hardware\r_opengl\r_opengl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\hardware\r_opengl\r_opengl.h" />
+		<Unit filename="..\hu_stuff.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\hu_stuff.h" />
+		<Unit filename="..\i_joy.h" />
+		<Unit filename="..\i_net.h" />
+		<Unit filename="..\i_sound.h" />
+		<Unit filename="..\i_system.h" />
+		<Unit filename="..\i_tcp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\i_tcp.h" />
+		<Unit filename="..\i_video.h" />
+		<Unit filename="..\info.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\info.h" />
+		<Unit filename="..\keys.h" />
+		<Unit filename="..\lzf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\lzf.h" />
+		<Unit filename="..\m_argv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\m_argv.h" />
+		<Unit filename="..\m_bbox.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\m_bbox.h" />
+		<Unit filename="..\m_cheat.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\m_cheat.h" />
+		<Unit filename="..\m_dllist.h" />
+		<Unit filename="..\m_fixed.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\m_fixed.h" />
+		<Unit filename="..\m_menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\m_menu.h" />
+		<Unit filename="..\m_misc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\m_misc.h" />
+		<Unit filename="..\m_queue.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\m_queue.h" />
+		<Unit filename="..\m_random.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\m_random.h" />
+		<Unit filename="..\m_swap.h" />
+		<Unit filename="..\m_vector.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\m_vector.h" />
+		<Unit filename="..\md5.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\md5.h" />
+		<Unit filename="..\mserv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\mserv.h" />
+		<Unit filename="..\p5prof.h" />
+		<Unit filename="..\p_bots.h" />
+		<Unit filename="..\p_ceilng.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\p_enemy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\p_fab.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\p_floor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\p_inter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\p_lights.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\p_local.h" />
+		<Unit filename="..\p_map.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\p_maputl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\p_maputl.h" />
+		<Unit filename="..\p_mobj.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\p_mobj.h" />
+		<Unit filename="..\p_polyobj.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\p_polyobj.h" />
+		<Unit filename="..\p_pspr.h" />
+		<Unit filename="..\p_saveg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\p_saveg.h" />
+		<Unit filename="..\p_setup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\p_setup.h" />
+		<Unit filename="..\p_sight.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\p_slopes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\p_slopes.h" />
+		<Unit filename="..\p_spec.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\p_spec.h" />
+		<Unit filename="..\p_telept.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\p_tick.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\p_tick.h" />
+		<Unit filename="..\p_user.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\r_bsp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\r_bsp.h" />
+		<Unit filename="..\r_data.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\r_data.h" />
+		<Unit filename="..\r_defs.h" />
+		<Unit filename="..\r_draw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\r_draw.h" />
+		<Unit filename="..\r_draw16.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="..\r_draw8.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="..\r_local.h" />
+		<Unit filename="..\r_main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\r_main.h" />
+		<Unit filename="..\r_plane.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\r_plane.h" />
+		<Unit filename="..\r_segs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\r_segs.h" />
+		<Unit filename="..\r_sky.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\r_sky.h" />
+		<Unit filename="..\r_splats.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\r_splats.h" />
+		<Unit filename="..\r_state.h" />
+		<Unit filename="..\r_things.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\r_things.h" />
+		<Unit filename="..\s_sound.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\s_sound.h" />
+		<Unit filename="..\screen.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\screen.h" />
+		<Unit filename="..\sounds.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\sounds.h" />
+		<Unit filename="..\st_stuff.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\st_stuff.h" />
+		<Unit filename="..\string.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\tables.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\tables.h" />
+		<Unit filename="..\tmap.nas">
+			<Option compile="1" />
+			<Option link="1" />
+			<Option compiler="gcc" use="1" buildCommand="nasm.exe -o ../../objs/VC/Release/Win32/tmap.o -f win32 ../tmap.nas" />
+		</Unit>
+		<Unit filename="..\tmap_asm.s">
+			<Option compiler="gcc" use="0" buildCommand="$(CC) -g $(CXXFLAGS) -x assembler-with-cpp -c ../tmap_asm.s -o ../../objs/VC/Release/win32/tmap_asm.o" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="..\tmap_mmx.nas">
+			<Option compile="1" />
+			<Option link="1" />
+			<Option compiler="gcc" use="1" buildCommand="nasm.exe -o ../../objs/VC/Release/Win32/tmap_mmx.o -f win32 ../tmap_mmx.nas" />
+		</Unit>
+		<Unit filename="..\tmap_vc.nas">
+			<Option compile="1" />
+			<Option link="1" />
+			<Option compiler="gcc" use="1" buildCommand="nasm.exe -o ../../objs/VC/Release/Win32/tmap_vc.o -f win32 ../tmap_vc.nas" />
+		</Unit>
+		<Unit filename="..\v_video.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\v_video.h" />
+		<Unit filename="..\vid_copy.s">
+			<Option compilerVar="CC" />
+			<Option compiler="gcc" use="1" buildCommand="gcc -x assembler-with-cpp -c $file -o $link_objects $includes -D__ASM__ $options" />
+		</Unit>
+		<Unit filename="..\w_wad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\w_wad.h" />
+		<Unit filename="Srb2win.ico" />
+		<Unit filename="Srb2win.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="afxres.h" />
+		<Unit filename="dx_error.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dx_error.h" />
+		<Unit filename="fabdxlib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fabdxlib.h" />
+		<Unit filename="mid2strm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mid2strm.h" />
+		<Unit filename="midstuff.h" />
+		<Unit filename="resource.h" />
+		<Unit filename="win_cd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="win_dbg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="win_dbg.h" />
+		<Unit filename="win_dll.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="win_dll.h" />
+		<Unit filename="win_main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="win_main.h" />
+		<Unit filename="win_net.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="win_snd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="win_sys.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="win_vid.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\y_inter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\y_inter.h" />
+		<Unit filename="..\z_zone.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\z_zone.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

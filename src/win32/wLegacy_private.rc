@@ -1,0 +1,7 @@
+/* THIS FILE WILL BE OVERWRITTEN BY DEV-C++ */
+/* DO NOT EDIT! */
+
+#include "Srb2win.rc"
+
+A ICON MOVEABLE PURE LOADONCALL DISCARDABLE "Srb2win.ico"
+

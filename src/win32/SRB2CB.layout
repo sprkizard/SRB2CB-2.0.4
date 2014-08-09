@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Win32 Release" />
+	<File name="..\..\doc\copying" open="0" top="0" tabpos="0">
+		<Cursor position="10491" topLine="179" />
+	</File>
+	<File name="..\..\doc\source.txt" open="0" top="0" tabpos="3">
+		<Cursor position="3718" topLine="114" />
+	</File>
+	<File name="..\am_map.c" open="0" top="0" tabpos="2">
+		<Cursor position="5795" topLine="171" />
+	</File>
+	<File name="..\command.c" open="0" top="0" tabpos="0">
+		<Cursor position="29029" topLine="1157" />
+	</File>
+	<File name="..\console.c" open="0" top="0" tabpos="18">
+		<Cursor position="31010" topLine="1190" />
+	</File>
+	<File name="..\d_clisrv.c" open="0" top="0" tabpos="0">
+		<Cursor position="96434" topLine="3465" />
+	</File>
+	<File name="..\d_main.c" open="0" top="0" tabpos="2">
+		<Cursor position="19916" topLine="791" />
+	</File>
+	<File name="..\d_netcmd.c" open="0" top="0" tabpos="6">
+		<Cursor position="23164" topLine="421" />
+	</File>
+	<File name="..\d_netfil.c" open="0" top="0" tabpos="3">
+		<Cursor position="8500" topLine="281" />
+	</File>
+	<File name="..\d_player.h" open="0" top="0" tabpos="0">
+		<Cursor position="12537" topLine="417" />
+	</File>
+	<File name="..\dehacked.c" open="0" top="0" tabpos="20">
+		<Cursor position="41819" topLine="1405" />
+	</File>
+	<File name="..\doomdata.h" open="0" top="0" tabpos="14">
+		<Cursor position="5788" topLine="185" />
+	</File>
+	<File name="..\doomdef.h" open="0" top="0" tabpos="0">
+		<Cursor position="6370" topLine="155" />
+	</File>
+	<File name="..\doomstat.h" open="0" top="0" tabpos="0">
+		<Cursor position="8383" topLine="214" />
+	</File>
+	<File name="..\dstrings.c" open="0" top="0" tabpos="4">
+		<Cursor position="29545" topLine="490" />
+	</File>
+	<File name="..\f_finale.c" open="0" top="0" tabpos="5">
+		<Cursor position="53434" topLine="1924" />
+	</File>
+	<File name="..\g_game.c" open="0" top="0" tabpos="13">
+		<Cursor position="59233" topLine="2137" />
+	</File>
+	<File name="..\hardware\hw_bsp.c" open="0" top="0" tabpos="0">
+		<Cursor position="18634" topLine="687" />
+	</File>
+	<File name="..\hardware\hw_cache.c" open="0" top="0" tabpos="4">
+		<Cursor position="8903" topLine="313" />
+	</File>
+	<File name="..\hardware\hw_defs.h" open="0" top="0" tabpos="0">
+		<Cursor position="6995" topLine="150" />
+	</File>
+	<File name="..\hardware\hw_drv.h" open="0" top="0" tabpos="22">
+		<Cursor position="2140" topLine="42" />
+	</File>
+	<File name="..\hardware\hw_glob.h" open="0" top="0" tabpos="0">
+		<Cursor position="3238" topLine="102" />
+	</File>
+	<File name="..\hardware\hw_light.c" open="0" top="0" tabpos="0">
+		<Cursor position="11811" topLine="333" />
+	</File>
+	<File name="..\hardware\hw_main.c" open="0" top="0" tabpos="3">
+		<Cursor position="138706" topLine="3671" />
+	</File>
+	<File name="..\hardware\hw_main.h" open="0" top="0" tabpos="0">
+		<Cursor position="3700" topLine="73" />
+	</File>
+	<File name="..\hardware\hw_md2.c" open="0" top="0" tabpos="0">
+		<Cursor position="24172" topLine="920" />
+	</File>
+	<File name="..\hardware\r_opengl\r_opengl.c" open="0" top="0" tabpos="1">
+		<Cursor position="24754" topLine="823" />
+	</File>
+	<File name="..\info.c" open="0" top="0" tabpos="9">
+		<Cursor position="5663" topLine="161" />
+	</File>
+	<File name="..\info.h" open="0" top="0" tabpos="12">
+		<Cursor position="5402" topLine="174" />
+	</File>
+	<File name="..\m_cheat.c" open="0" top="0" tabpos="0">
+		<Cursor position="14004" topLine="511" />
+	</File>
+	<File name="..\m_menu.c" open="0" top="0" tabpos="0">
+		<Cursor position="209696" topLine="8592" />
+	</File>
+	<File name="..\m_misc.c" open="0" top="0" tabpos="7">
+		<Cursor position="16317" topLine="573" />
+	</File>
+	<File name="..\m_misc.h" open="0" top="0" tabpos="8">
+		<Cursor position="2064" topLine="56" />
+	</File>
+	<File name="..\m_vector.c" open="0" top="0" tabpos="0">
+		<Cursor position="23277" topLine="950" />
+	</File>
+	<File name="..\m_vector.h" open="0" top="0" tabpos="0">
+		<Cursor position="4116" topLine="88" />
+	</File>
+	<File name="..\p_enemy.c" open="0" top="0" tabpos="10">
+		<Cursor position="72612" topLine="3105" />
+	</File>
+	<File name="..\p_fab.c" open="0" top="0" tabpos="0">
+		<Cursor position="2526" topLine="74" />
+	</File>
+	<File name="..\p_inter.c" open="0" top="0" tabpos="0">
+		<Cursor position="91211" topLine="3044" />
+	</File>
+	<File name="..\p_local.h" open="0" top="0" tabpos="13">
+		<Cursor position="7053" topLine="201" />
+	</File>
+	<File name="..\p_map.c" open="0" top="0" tabpos="11">
+		<Cursor position="99842" topLine="3564" />
+	</File>
+	<File name="..\p_mobj.c" open="0" top="0" tabpos="12">
+		<Cursor position="15469" topLine="619" />
+	</File>
+	<File name="..\p_polyobj.c" open="0" top="0" tabpos="6">
+		<Cursor position="9891" topLine="328" />
+	</File>
+	<File name="..\p_saveg.c" open="0" top="0" tabpos="8">
+		<Cursor position="59448" topLine="2073" />
+	</File>
+	<File name="..\p_setup.c" open="0" top="0" tabpos="6">
+		<Cursor position="87174" topLine="3124" />
+	</File>
+	<File name="..\p_setup.h" open="0" top="0" tabpos="18">
+		<Cursor position="2387" topLine="38" />
+	</File>
+	<File name="..\p_sight.c" open="0" top="0" tabpos="8">
+		<Cursor position="8553" topLine="312" />
+	</File>
+	<File name="..\p_slopes.c" open="0" top="0" tabpos="1">
+		<Cursor position="5558" topLine="30" />
+	</File>
+	<File name="..\p_slopes.h" open="0" top="0" tabpos="3">
+		<Cursor position="2069" topLine="46" />
+	</File>
+	<File name="..\p_spec.c" open="1" top="1" tabpos="0">
+		<Cursor position="8099" topLine="171" />
+	</File>
+	<File name="..\p_tick.c" open="0" top="0" tabpos="0">
+		<Cursor position="14221" topLine="558" />
+	</File>
+	<File name="..\p_user.c" open="0" top="0" tabpos="7">
+		<Cursor position="337471" topLine="11238" />
+	</File>
+	<File name="..\r_data.c" open="0" top="0" tabpos="5">
+		<Cursor position="12791" topLine="303" />
+	</File>
+	<File name="..\r_data.h" open="0" top="0" tabpos="16">
+		<Cursor position="2165" topLine="48" />
+	</File>
+	<File name="..\r_defs.h" open="0" top="0" tabpos="0">
+		<Cursor position="20052" topLine="685" />
+	</File>
+	<File name="..\r_main.c" open="0" top="0" tabpos="1">
+		<Cursor position="29339" topLine="1104" />
+	</File>
+	<File name="..\r_state.h" open="0" top="0" tabpos="0">
+		<Cursor position="1500" topLine="34" />
+	</File>
+	<File name="..\r_things.c" open="0" top="0" tabpos="0">
+		<Cursor position="65519" topLine="2429" />
+	</File>
+	<File name="..\st_stuff.c" open="0" top="0" tabpos="0">
+		<Cursor position="74145" topLine="2258" />
+	</File>
+	<File name="..\v_video.c" open="0" top="0" tabpos="0">
+		<Cursor position="2728" topLine="42" />
+	</File>
+	<File name="..\w_wad.c" open="0" top="0" tabpos="21">
+		<Cursor position="14156" topLine="513" />
+	</File>
+	<File name="..\w_wad.h" open="0" top="0" tabpos="19">
+		<Cursor position="3305" topLine="79" />
+	</File>
+	<File name="mid2strm.c" open="0" top="0" tabpos="6">
+		<Cursor position="21420" topLine="712" />
+	</File>
+	<File name="win_sys.c" open="0" top="0" tabpos="0">
+		<Cursor position="96592" topLine="3484" />
+	</File>
+	<File name="..\y_inter.c" open="0" top="0" tabpos="11">
+		<Cursor position="15922" topLine="473" />
+	</File>
+	<File name="..\z_zone.c" open="0" top="0" tabpos="1">
+		<Cursor position="6276" topLine="221" />
+	</File>
+	<File name="..\z_zone.h" open="0" top="0" tabpos="4">
+		<Cursor position="3223" topLine="57" />
+	</File>
+</CodeBlocks_layout_file>
+[Editors]
+Order=166,173,175,165,36,34,190
+Focused=190
+[Editor_0]
+Open=0
+Top=0
+[Editor_1]
+Open=0
+Top=0
+[Editor_2]
+Open=0
+Top=0
+[Editor_3]
+Open=0
+Top=0
+[Editor_4]
+Open=0
+Top=0
+[Editor_5]
+Open=0
+Top=0
+[Editor_6]
+Open=0
+Top=0
+[Editor_7]
+Open=0
+Top=0
+[Editor_8]
+Open=0
+Top=0
+[Editor_9]
+Open=0
+Top=0
+[Editor_10]
+Open=0
+Top=0
+[Editor_11]
+Open=0
+Top=0
+[Editor_12]
+Open=0
+Top=0
+[Editor_13]
+Open=0
+Top=0
+[Editor_14]
+Open=0
+Top=0
+[Editor_15]
+Open=0
+Top=0
+[Editor_16]
+Open=0
+Top=0
+[Editor_17]
+Open=0
+Top=0
+[Editor_18]
+Open=0
+Top=0
+[Editor_19]
+Open=0
+Top=0
+[Editor_20]
+Open=0
+Top=0
+[Editor_21]
+Open=0
+Top=0
+[Editor_22]
+Open=0
+Top=0
+[Editor_23]
+Open=0
+Top=0
+[Editor_24]
+Open=0
+Top=0
+[Editor_25]
+Open=0
+Top=0
+[Editor_26]
+Open=0
+Top=0
+[Editor_27]
+Open=0
+Top=0
+[Editor_28]
+Open=0
+Top=0
+[Editor_29]
+Open=0
+Top=0
+[Editor_30]
+Open=0
+Top=0
+[Editor_31]
+Open=0
+Top=0
+[Editor_32]
+Open=0
+Top=0
+[Editor_33]
+Open=0
+Top=0
+[Editor_34]
+Open=1
+Top=0
+CursorCol=3
+CursorRow=4434
+TopLine=4422
+LeftChar=1
+[Editor_35]
+Open=0
+Top=0
+[Editor_36]
+Open=1
+Top=0
+CursorCol=7
+CursorRow=1053
+TopLine=1054
+LeftChar=1
+[Editor_37]
+Open=0
+Top=0
+[Editor_38]
+Open=0
+Top=0
+[Editor_39]
+Open=0
+Top=0
+[Editor_40]
+Open=0
+Top=0
+[Editor_41]
+Open=0
+Top=0
+[Editor_42]
+Open=0
+Top=0
+[Editor_43]
+Open=0
+Top=0
+[Editor_44]
+Open=0
+Top=0
+[Editor_45]
+Open=0
+Top=0
+[Editor_46]
+Open=0
+Top=0
+[Editor_47]
+Open=0
+Top=0
+[Editor_48]
+Open=0
+Top=0
+[Editor_49]
+Open=0
+Top=0
+[Editor_50]
+Open=0
+Top=0
+[Editor_51]
+Open=0
+Top=0
+[Editor_52]
+Open=0
+Top=0
+[Editor_53]
+Open=0
+Top=0
+[Editor_54]
+Open=0
+Top=0
+[Editor_55]
+Open=0
+Top=0
+[Editor_56]
+Open=0
+Top=0
+[Editor_57]
+Open=0
+Top=0
+[Editor_58]
+Open=0
+Top=0
+[Editor_59]
+Open=0
+Top=0
+[Editor_60]
+Open=0
+Top=0
+[Editor_61]
+Open=0
+Top=0
+[Editor_62]
+Open=0
+Top=0
+[Editor_63]
+Open=0
+Top=0
+[Editor_64]
+Open=0
+Top=0
+[Editor_65]
+Open=0
+Top=0
+[Editor_66]
+Open=0
+Top=0
+[Editor_67]
+Open=0
+Top=0
+[Editor_68]
+Open=0
+Top=0
+[Editor_69]
+Open=0
+Top=0
+[Editor_70]
+Open=0
+Top=0
+[Editor_71]
+Open=0
+Top=0
+[Editor_72]
+Open=0
+Top=0
+[Editor_73]
+Open=0
+Top=0
+[Editor_74]
+Open=0
+Top=0
+[Editor_75]
+Open=0
+Top=0
+[Editor_76]
+Open=0
+Top=0
+[Editor_77]
+Open=0
+Top=0
+[Editor_78]
+Open=0
+Top=0
+[Editor_79]
+Open=0
+Top=0
+[Editor_80]
+Open=0
+Top=0
+[Editor_81]
+Open=0
+Top=0
+[Editor_82]
+Open=0
+Top=0
+[Editor_83]
+Open=0
+Top=0
+[Editor_84]
+Open=0
+Top=0
+[Editor_85]
+Open=0
+Top=0
+[Editor_86]
+Open=0
+Top=0
+[Editor_87]
+Open=0
+Top=0
+[Editor_88]
+Open=0
+Top=0
+[Editor_89]
+Open=0
+Top=0
+[Editor_90]
+Open=0
+Top=0
+[Editor_91]
+Open=0
+Top=0
+[Editor_92]
+Open=0
+Top=0
+[Editor_93]
+Open=0
+Top=0
+[Editor_94]
+Open=0
+Top=0
+[Editor_95]
+Open=0
+Top=0
+[Editor_96]
+Open=0
+Top=0
+[Editor_97]
+Open=0
+Top=0
+[Editor_98]
+Open=0
+Top=0
+[Editor_99]
+Open=0
+Top=0
+[Editor_100]
+Open=0
+Top=0
+[Editor_101]
+Open=0
+Top=0
+[Editor_102]
+Open=0
+Top=0
+[Editor_103]
+Open=0
+Top=0
+[Editor_104]
+Open=0
+Top=0
+[Editor_105]
+Open=0
+Top=0
+[Editor_106]
+Open=0
+Top=0
+[Editor_107]
+Open=0
+Top=0
+[Editor_108]
+Open=0
+Top=0
+[Editor_109]
+Open=0
+Top=0
+[Editor_110]
+Open=0
+Top=0
+[Editor_111]
+Open=0
+Top=0
+[Editor_112]
+Open=0
+Top=0
+[Editor_113]
+Open=0
+Top=0
+[Editor_114]
+Open=0
+Top=0
+[Editor_115]
+Open=0
+Top=0
+[Editor_116]
+Open=0
+Top=0
+[Editor_117]
+Open=0
+Top=0
+[Editor_118]
+Open=0
+Top=0
+[Editor_119]
+Open=0
+Top=0
+[Editor_120]
+Open=0
+Top=0
+[Editor_121]
+Open=0
+Top=0
+[Editor_122]
+Open=0
+Top=0
+[Editor_123]
+Open=0
+Top=0
+[Editor_124]
+Open=0
+Top=0
+[Editor_125]
+Open=0
+Top=0
+[Editor_126]
+Open=0
+Top=0
+[Editor_127]
+Open=0
+Top=0
+[Editor_128]
+Open=0
+Top=0
+[Editor_129]
+Open=0
+Top=0
+[Editor_130]
+Open=0
+Top=0
+[Editor_131]
+Open=0
+Top=0
+[Editor_132]
+Open=0
+Top=0
+[Editor_133]
+Open=0
+Top=0
+[Editor_134]
+Open=0
+Top=0
+[Editor_135]
+Open=0
+Top=0
+[Editor_136]
+Open=0
+Top=0
+[Editor_137]
+Open=0
+Top=0
+[Editor_138]
+Open=0
+Top=0
+[Editor_139]
+Open=0
+Top=0
+[Editor_140]
+Open=0
+Top=0
+[Editor_141]
+Open=0
+Top=0
+[Editor_142]
+Open=0
+Top=0
+[Editor_143]
+Open=0
+Top=0
+[Editor_144]
+Open=0
+Top=0
+[Editor_145]
+Open=0
+Top=0
+[Editor_146]
+Open=0
+Top=0
+[Editor_147]
+Open=0
+Top=0
+[Editor_148]
+Open=0
+Top=0
+[Editor_149]
+Open=0
+Top=0
+[Editor_150]
+Open=0
+Top=0
+[Editor_151]
+Open=0
+Top=0
+[Editor_152]
+Open=0
+Top=0
+[Editor_153]
+Open=0
+Top=0
+[Editor_154]
+Open=0
+Top=0
+[Editor_155]
+Open=0
+Top=0
+[Editor_156]
+Open=0
+Top=0
+[Editor_157]
+Open=0
+Top=0
+[Editor_158]
+Open=0
+Top=0
+[Editor_159]
+Open=0
+Top=0
+[Editor_160]
+Open=0
+Top=0
+[Editor_161]
+Open=0
+Top=0
+[Editor_162]
+Open=0
+Top=0
+[Editor_163]
+Open=0
+Top=0
+[Editor_164]
+Open=0
+Top=0
+[Editor_165]
+Open=1
+Top=0
+CursorCol=12
+CursorRow=258
+TopLine=252
+LeftChar=1
+[Editor_166]
+Open=1
+Top=0
+CursorCol=6
+CursorRow=168
+TopLine=154
+LeftChar=1
+[Editor_167]
+Open=0
+Top=0
+[Editor_168]
+Open=0
+Top=0
+[Editor_169]
+Open=0
+Top=0
+[Editor_170]
+Open=0
+Top=0
+[Editor_171]
+Open=0
+Top=0
+[Editor_172]
+Open=0
+Top=0
+[Editor_173]
+Open=1
+Top=0
+CursorCol=3
+CursorRow=66
+TopLine=47
+LeftChar=1
+[Editor_174]
+Open=0
+Top=0
+[Editor_175]
+Open=1
+Top=0
+CursorCol=4
+CursorRow=176
+TopLine=158
+LeftChar=1
+[Editor_176]
+Open=0
+Top=0
+[Editor_177]
+Open=0
+Top=0
+[Editor_178]
+Open=0
+Top=0
+[Editor_179]
+Open=0
+Top=0
+[Editor_180]
+Open=0
+Top=0
+[Editor_181]
+Open=0
+Top=0
+[Editor_182]
+Open=0
+Top=0
+[Editor_183]
+Open=0
+Top=0
+[Editor_184]
+Open=0
+Top=0
+[Editor_185]
+Open=0
+Top=0
+[Editor_186]
+Open=0
+Top=0
+[Editor_187]
+Open=0
+Top=0
+[Editor_188]
+Open=0
+Top=0
+[Editor_189]
+Open=0
+Top=0
+[Editor_190]
+Open=1
+Top=1
+CursorCol=9
+CursorRow=1372
+TopLine=1360
+LeftChar=1
+[Editor_191]
+Open=0
+Top=0
+[Editor_192]
+Open=0
+Top=0
+[Editor_193]
+Open=0
+Top=0
+[Editor_194]
+Open=0
+Top=0
+[Editor_195]
+Open=0
+Top=0
+[Editor_196]
+Open=0
+Top=0
+[Editor_197]
+Open=0
+Top=0

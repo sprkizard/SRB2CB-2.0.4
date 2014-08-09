@@ -1,0 +1,84 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeSDKPreference = macosx10.4;
+		activeTarget = 8D07F2BC0486CC7A007CD1D0 /* libpng */;
+		codeSenseManager = 41F1B24410B9EB4F0070A36A /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 280619755;
+			PBXWorkspaceStateSaveDate = 280619755;
+		};
+		sourceControlManager = 41F1B24310B9EB4F0070A36A /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	14461C5D09C3C37F005840C0 /* png.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {788, 13034}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{18751, 1886}";
+			sepNavWindowFrame = "{{15, 145}, {847, 852}}";
+		};
+	};
+	14461C5E09C3C37F005840C0 /* png.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {788, 53942}}";
+			sepNavSelRange = "{22405, 6}";
+			sepNavVisRange = "{21242, 1831}";
+			sepNavWindowFrame = "{{84, 82}, {847, 852}}";
+		};
+	};
+	14461C6809C3C37F005840C0 /* pngrutil.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {788, 48188}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{28884, 1890}";
+			sepNavWindowFrame = "{{61, 103}, {847, 852}}";
+		};
+	};
+	14461C6C09C3C37F005840C0 /* pngvcrd.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {788, 724}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 48}";
+			sepNavWindowFrame = "{{38, 124}, {847, 852}}";
+		};
+	};
+	41F1B24310B9EB4F0070A36A /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	41F1B24410B9EB4F0070A36A /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8D07F2BC0486CC7A007CD1D0 /* libpng */ = {
+		activeExec = 0;
+	};
+}

@@ -1,0 +1,712 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\am_map.c">
+      <Filter>AM_Automap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\d_clisrv.c">
+      <Filter>D_SRB2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\d_main.c">
+      <Filter>D_SRB2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\d_net.c">
+      <Filter>D_SRB2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\d_netcmd.c">
+      <Filter>D_SRB2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\d_netfil.c">
+      <Filter>D_SRB2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dehacked.c">
+      <Filter>D_SRB2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\command.c">
+      <Filter>D_SRB2</Filter>
+    </ClCompile>
+    <ClCompile Include="dosstr.c">
+      <Filter>DOS</Filter>
+    </ClCompile>
+    <ClCompile Include="endtxt.c">
+      <Filter>DOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\f_finale.c">
+      <Filter>F_Cutscene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\f_wipe.c">
+      <Filter>F_Cutscene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\console.c">
+      <Filter>D_SRB2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hardware\hw3sound.c">
+      <Filter>HW3_3DSound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\comptime.c">
+      <Filter>Z_Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\g_game.c">
+      <Filter>G_Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\g_input.c">
+      <Filter>G_Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\filesrch.c">
+      <Filter>Z_Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="filter\hq2x.c">
+      <Filter>SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hu_stuff.c">
+      <Filter>HU_Hud</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hardware\hw_bsp.c">
+      <Filter>HW_Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hardware\hw_trick.c">
+      <Filter>HW_Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hardware\hw_cache.c">
+      <Filter>HW_Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hardware\hw_draw.c">
+      <Filter>HW_Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hardware\hw_light.c">
+      <Filter>HW_Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hardware\hw_main.c">
+      <Filter>HW_Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hardware\hw_md2.c">
+      <Filter>HW_Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="hwsym_sdl.c">
+      <Filter>SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="i_cdmus.c">
+      <Filter>I_Input</Filter>
+    </ClCompile>
+    <ClCompile Include="i_main.c">
+      <Filter>I_Input</Filter>
+    </ClCompile>
+    <ClCompile Include="i_net.c">
+      <Filter>I_Input</Filter>
+    </ClCompile>
+    <ClCompile Include="i_sound.c">
+      <Filter>I_Input</Filter>
+    </ClCompile>
+    <ClCompile Include="i_system.c">
+      <Filter>I_Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_tcp.c">
+      <Filter>I_Input</Filter>
+    </ClCompile>
+    <ClCompile Include="i_video.c">
+      <Filter>I_Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\info.c">
+      <Filter>P_World</Filter>
+    </ClCompile>
+    <ClCompile Include="IMG_xpm.c">
+      <Filter>SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lzf.c">
+      <Filter>Z_Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\m_argv.c">
+      <Filter>M_Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\m_bbox.c">
+      <Filter>M_Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\m_cheat.c">
+      <Filter>M_Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\m_fixed.c">
+      <Filter>M_Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\m_menu.c">
+      <Filter>M_Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\m_misc.c">
+      <Filter>M_Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\m_queue.c">
+      <Filter>M_Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\m_random.c">
+      <Filter>M_Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="ogl_sdl.c">
+      <Filter>SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\md5.c">
+      <Filter>Z_Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mserv.c">
+      <Filter>D_SRB2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\p_ceilng.c">
+      <Filter>P_World</Filter>
+    </ClCompile>
+    <ClCompile Include="..\p_user.c">
+      <Filter>P_World</Filter>
+    </ClCompile>
+    <ClCompile Include="..\p_enemy.c">
+      <Filter>P_World</Filter>
+    </ClCompile>
+    <ClCompile Include="..\p_fab.c">
+      <Filter>P_World</Filter>
+    </ClCompile>
+    <ClCompile Include="..\p_floor.c">
+      <Filter>P_World</Filter>
+    </ClCompile>
+    <ClCompile Include="..\p_inter.c">
+      <Filter>P_World</Filter>
+    </ClCompile>
+    <ClCompile Include="..\p_lights.c">
+      <Filter>P_World</Filter>
+    </ClCompile>
+    <ClCompile Include="..\p_map.c">
+      <Filter>P_World</Filter>
+    </ClCompile>
+    <ClCompile Include="..\p_maputl.c">
+      <Filter>P_World</Filter>
+    </ClCompile>
+    <ClCompile Include="..\p_mobj.c">
+      <Filter>P_World</Filter>
+    </ClCompile>
+    <ClCompile Include="..\p_polyobj.c">
+      <Filter>P_World</Filter>
+    </ClCompile>
+    <ClCompile Include="..\p_saveg.c">
+      <Filter>P_World</Filter>
+    </ClCompile>
+    <ClCompile Include="..\p_setup.c">
+      <Filter>P_World</Filter>
+    </ClCompile>
+    <ClCompile Include="..\p_sight.c">
+      <Filter>P_World</Filter>
+    </ClCompile>
+    <ClCompile Include="..\p_spec.c">
+      <Filter>P_World</Filter>
+    </ClCompile>
+    <ClCompile Include="..\p_telept.c">
+      <Filter>P_World</Filter>
+    </ClCompile>
+    <ClCompile Include="..\p_tick.c">
+      <Filter>P_World</Filter>
+    </ClCompile>
+    <ClCompile Include="..\r_bsp.c">
+      <Filter>R_Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\r_data.c">
+      <Filter>R_Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\r_draw.c">
+      <Filter>R_Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\r_draw16.c">
+      <Filter>R_Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\r_draw8.c">
+      <Filter>R_Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\r_main.c">
+      <Filter>R_Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hardware\r_opengl\r_opengl.c">
+      <Filter>R_Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\r_plane.c">
+      <Filter>R_Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\r_segs.c">
+      <Filter>R_Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\r_sky.c">
+      <Filter>R_Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\r_splats.c">
+      <Filter>R_Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\r_things.c">
+      <Filter>R_Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\screen.c">
+      <Filter>V_Video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\s_sound.c">
+      <Filter>S_Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sounds.c">
+      <Filter>S_Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="SDL_main\SDL_win32_main.c">
+      <Filter>SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\st_stuff.c">
+      <Filter>HU_Hud</Filter>
+    </ClCompile>
+    <ClCompile Include="..\string.c">
+      <Filter>Z_Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tables.c">
+      <Filter>Z_Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\y_inter.c">
+      <Filter>F_Cutscene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\v_video.c">
+      <Filter>V_Video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\w_wad.c">
+      <Filter>W_Wad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\win32\win_dbg.c">
+      <Filter>Z_Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\z_zone.c">
+      <Filter>Z_Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client-Side.c">
+      <Filter>CS_Netcode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CS_Compression.c">
+      <Filter>CS_Netcode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CS_Connection.c">
+      <Filter>CS_Netcode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CS_Console.c">
+      <Filter>CS_Netcode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CS_Gameplay.c">
+      <Filter>CS_Netcode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CS_Players.c">
+      <Filter>CS_Netcode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Networking.c">
+      <Filter>CS_Netcode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AI.c">
+      <Filter>B_Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Pathfinding.c">
+      <Filter>B_Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\p_slopes.c">
+      <Filter>P_World</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hardware\hw_clip.c">
+      <Filter>HW_Hardware</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\am_map.h">
+      <Filter>AM_Automap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\byteptr.h">
+      <Filter>Z_Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\d_ticcmd.h">
+      <Filter>D_SRB2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\d_clisrv.h">
+      <Filter>D_SRB2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\d_event.h">
+      <Filter>D_SRB2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\d_main.h">
+      <Filter>D_SRB2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\d_net.h">
+      <Filter>D_SRB2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\d_netcmd.h">
+      <Filter>D_SRB2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\d_netfil.h">
+      <Filter>D_SRB2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\d_player.h">
+      <Filter>D_SRB2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\d_think.h">
+      <Filter>D_SRB2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\doomtype.h">
+      <Filter>D_SRB2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dehacked.h">
+      <Filter>D_SRB2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\doomdata.h">
+      <Filter>D_SRB2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\doomdef.h">
+      <Filter>D_SRB2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\doomstat.h">
+      <Filter>D_SRB2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\command.h">
+      <Filter>D_SRB2</Filter>
+    </ClInclude>
+    <ClInclude Include="endtxt.h">
+      <Filter>DOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\f_finale.h">
+      <Filter>F_Cutscene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\console.h">
+      <Filter>D_SRB2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hardware\hw3dsdrv.h">
+      <Filter>HW3_3DSound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hardware\hw3sound.h">
+      <Filter>HW3_3DSound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hardware\hws_data.h">
+      <Filter>HW3_3DSound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\g_state.h">
+      <Filter>G_Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\g_game.h">
+      <Filter>G_Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\g_input.h">
+      <Filter>G_Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\filesrch.h">
+      <Filter>Z_Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\hq2x.h">
+      <Filter>SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hu_stuff.h">
+      <Filter>HU_Hud</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hardware\hw_data.h">
+      <Filter>HW_Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hardware\hw_defs.h">
+      <Filter>HW_Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hardware\hw_dll.h">
+      <Filter>HW_Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hardware\hw_drv.h">
+      <Filter>HW_Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hardware\hw_glide.h">
+      <Filter>HW_Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hardware\hw_glob.h">
+      <Filter>HW_Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hardware\hw_light.h">
+      <Filter>HW_Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hardware\hw_main.h">
+      <Filter>HW_Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hardware\hw_md2.h">
+      <Filter>HW_Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="hwsym_sdl.h">
+      <Filter>SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_video.h">
+      <Filter>I_Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_joy.h">
+      <Filter>I_Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_net.h">
+      <Filter>I_Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_sound.h">
+      <Filter>I_Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_system.h">
+      <Filter>I_Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_tcp.h">
+      <Filter>I_Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\info.h">
+      <Filter>P_World</Filter>
+    </ClInclude>
+    <ClInclude Include="..\keys.h">
+      <Filter>I_Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lzf.h">
+      <Filter>Z_Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\m_random.h">
+      <Filter>M_Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\m_argv.h">
+      <Filter>M_Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\m_bbox.h">
+      <Filter>M_Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\m_cheat.h">
+      <Filter>M_Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\m_dllist.h">
+      <Filter>M_Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\m_fixed.h">
+      <Filter>M_Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\m_menu.h">
+      <Filter>M_Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\m_misc.h">
+      <Filter>M_Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\m_queue.h">
+      <Filter>M_Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\m_swap.h">
+      <Filter>M_Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="ogl_sdl.h">
+      <Filter>SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\md5.h">
+      <Filter>Z_Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mserv.h">
+      <Filter>D_SRB2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\p5prof.h">
+      <Filter>Z_Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\p_local.h">
+      <Filter>P_World</Filter>
+    </ClInclude>
+    <ClInclude Include="..\p_maputl.h">
+      <Filter>P_World</Filter>
+    </ClInclude>
+    <ClInclude Include="..\p_mobj.h">
+      <Filter>P_World</Filter>
+    </ClInclude>
+    <ClInclude Include="..\p_polyobj.h">
+      <Filter>P_World</Filter>
+    </ClInclude>
+    <ClInclude Include="..\p_pspr.h">
+      <Filter>P_World</Filter>
+    </ClInclude>
+    <ClInclude Include="..\p_saveg.h">
+      <Filter>P_World</Filter>
+    </ClInclude>
+    <ClInclude Include="..\p_setup.h">
+      <Filter>P_World</Filter>
+    </ClInclude>
+    <ClInclude Include="..\p_spec.h">
+      <Filter>P_World</Filter>
+    </ClInclude>
+    <ClInclude Include="..\p_tick.h">
+      <Filter>P_World</Filter>
+    </ClInclude>
+    <ClInclude Include="..\r_things.h">
+      <Filter>R_Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\r_bsp.h">
+      <Filter>R_Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\r_data.h">
+      <Filter>R_Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\r_defs.h">
+      <Filter>R_Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\r_draw.h">
+      <Filter>R_Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\r_local.h">
+      <Filter>R_Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\r_main.h">
+      <Filter>R_Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hardware\r_opengl\r_opengl.h">
+      <Filter>R_Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\r_plane.h">
+      <Filter>R_Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\r_segs.h">
+      <Filter>R_Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\r_sky.h">
+      <Filter>R_Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\r_splats.h">
+      <Filter>R_Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\r_state.h">
+      <Filter>R_Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\screen.h">
+      <Filter>V_Video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\s_sound.h">
+      <Filter>S_Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sounds.h">
+      <Filter>S_Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="sdlmain.h">
+      <Filter>SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\st_stuff.h">
+      <Filter>HU_Hud</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tables.h">
+      <Filter>Z_Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\y_inter.h">
+      <Filter>F_Cutscene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\v_video.h">
+      <Filter>V_Video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\w_wad.h">
+      <Filter>W_Wad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\z_zone.h">
+      <Filter>Z_Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\win32\win_dbg.h">
+      <Filter>Z_Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\win32\win_main.h">
+      <Filter>Z_Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CS_Compression.h">
+      <Filter>CS_Netcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CS_Console.h">
+      <Filter>CS_Netcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CS_Global.h">
+      <Filter>CS_Netcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Networking.h">
+      <Filter>CS_Netcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\p_bots.h">
+      <Filter>B_Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Pathfinding.h">
+      <Filter>B_Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\p_slopes.h">
+      <Filter>P_World</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hardware\hw_clip.h">
+      <Filter>HW_Hardware</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\tmap.nas">
+      <Filter>ASM</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\tmap_vc.nas">
+      <Filter>ASM</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\tmap_mmx.nas">
+      <Filter>ASM</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\doc\copying" />
+    <None Include="..\..\doc\faq.txt" />
+    <None Include="..\..\readme.txt" />
+    <None Include="..\..\doc\source.txt" />
+    <None Include="SDL_icon.xpm">
+      <Filter>SDL</Filter>
+    </None>
+    <None Include="..\win32\Srb2win.ico">
+      <Filter>SDL</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="AM_Automap">
+      <UniqueIdentifier>{5a948081-1f8b-4575-bfc8-b43a70e5e2ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Z_Misc">
+      <UniqueIdentifier>{e8e2eb9e-c78b-4f57-8813-bdda92227d05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D_SRB2">
+      <UniqueIdentifier>{b8105fe7-a70b-4cc0-b755-e35417fe3318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DOS">
+      <UniqueIdentifier>{20b3aaac-4d2b-462e-be14-d2a8ab771cfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="F_Cutscene">
+      <UniqueIdentifier>{759ad0c5-22d4-420d-bcdf-bf4b56d4ad04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HW3_3DSound">
+      <UniqueIdentifier>{35a7ef47-fd54-430f-9a3e-e035a85231ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDL">
+      <UniqueIdentifier>{94b1cf37-9786-47d8-98f4-d37615f9da84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="G_Game">
+      <UniqueIdentifier>{ab1a9bee-c555-4196-87c0-48e6b1d2c401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HU_Hud">
+      <UniqueIdentifier>{cbdd92ee-54ac-40bb-a57a-9846479749a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HW_Hardware">
+      <UniqueIdentifier>{639a2475-33cf-44ab-b654-4d6f47f0216e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="I_Input">
+      <UniqueIdentifier>{1dbae557-45df-42cd-8138-1ac484031bc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="P_World">
+      <UniqueIdentifier>{4c3ec7f0-2381-479f-964d-38a1fad6c262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="M_Menu">
+      <UniqueIdentifier>{8d50e6ee-c1d9-4ca0-9179-0db6d3c3115e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="R_Render">
+      <UniqueIdentifier>{c25a5b7c-3d99-4308-9e1b-403f6cd212cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="S_Sound">
+      <UniqueIdentifier>{f8f58e4e-585c-4cf0-8e3d-af12a5dc1d4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="V_Video">
+      <UniqueIdentifier>{0d985e56-5ebb-457d-8875-fdda04c4af31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="W_Wad">
+      <UniqueIdentifier>{34c11156-9d8a-475f-8456-6313d3f20a15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASM">
+      <UniqueIdentifier>{f36882e8-d1f5-40d3-a1a4-d3373f8ab2b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CS_Netcode">
+      <UniqueIdentifier>{ca1d1c22-fd8f-4b82-b7d6-ccff8f1bbbbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="B_Bot">
+      <UniqueIdentifier>{cbe001af-ebdb-4d4e-b521-bc5748b513f7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\win32\Srb2win.rc">
+      <Filter>SDL</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

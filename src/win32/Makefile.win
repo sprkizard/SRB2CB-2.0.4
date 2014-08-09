@@ -1,0 +1,313 @@
+# Project: SRB2CB
+# Compiler: Default GCC compiler
+# Compiler Type: MingW 3
+# Makefile created by wxDev-C++ 7.3 on 01/10/11 16:31
+
+WXLIBNAME = wxmsw28
+CPP       = g++.exe
+CC        = gcc.exe
+WINDRES   = "windres.exe"
+OBJ       = ../../objs/Mingw/Win32/dx_error.o ../../objs/Mingw/Win32/fabdxlib.o ../../objs/Mingw/Win32/filesrch.o ../../objs/Mingw/Win32/Mid2strm.o ../../objs/Mingw/Win32/win_cd.o ../../objs/Mingw/Win32/win_dbg.o ../../objs/Mingw/Win32/win_dll.o ../../objs/Mingw/Win32/win_main.o ../../objs/Mingw/Win32/win_net.o ../../objs/Mingw/Win32/win_snd.o ../../objs/Mingw/Win32/win_sys.o ../../objs/Mingw/Win32/win_vid.o ../../objs/Mingw/Win32/hw3sound.o ../../objs/Mingw/Win32/hw_bsp.o ../../objs/Mingw/Win32/hw_cache.o ../../objs/Mingw/Win32/hw_draw.o ../../objs/Mingw/Win32/hw_light.o ../../objs/Mingw/Win32/hw_main.o ../../objs/Mingw/Win32/hw_md2.o ../../objs/Mingw/Win32/hw_trick.o ../../objs/Mingw/Win32/d_clisrv.o ../../objs/Mingw/Win32/d_main.o ../../objs/Mingw/Win32/d_net.o ../../objs/Mingw/Win32/d_netcmd.o ../../objs/Mingw/Win32/d_netfil.o ../../objs/Mingw/Win32/m_argv.o ../../objs/Mingw/Win32/m_bbox.o ../../objs/Mingw/Win32/m_cheat.o ../../objs/Mingw/Win32/m_fixed.o ../../objs/Mingw/Win32/m_menu.o ../../objs/Mingw/Win32/m_misc.o ../../objs/Mingw/Win32/m_random.o ../../objs/Mingw/Win32/p_ceilng.o ../../objs/Mingw/Win32/p_enemy.o ../../objs/Mingw/Win32/p_fab.o ../../objs/Mingw/Win32/p_floor.o ../../objs/Mingw/Win32/p_inter.o ../../objs/Mingw/Win32/p_lights.o ../../objs/Mingw/Win32/p_map.o ../../objs/Mingw/Win32/p_maputl.o ../../objs/Mingw/Win32/p_mobj.o ../../objs/Mingw/Win32/p_saveg.o ../../objs/Mingw/Win32/p_setup.o ../../objs/Mingw/Win32/p_sight.o ../../objs/Mingw/Win32/p_spec.o ../../objs/Mingw/Win32/p_telept.o ../../objs/Mingw/Win32/p_tick.o ../../objs/Mingw/Win32/p_user.o ../../objs/Mingw/Win32/r_bsp.o ../../objs/Mingw/Win32/r_data.o ../../objs/Mingw/Win32/r_draw.o ../../objs/Mingw/Win32/r_main.o ../../objs/Mingw/Win32/r_plane.o ../../objs/Mingw/Win32/r_segs.o ../../objs/Mingw/Win32/r_sky.o ../../objs/Mingw/Win32/r_splats.o ../../objs/Mingw/Win32/r_things.o ../../objs/Mingw/Win32/am_map.o ../../objs/Mingw/Win32/command.o ../../objs/Mingw/Win32/console.o ../../objs/Mingw/Win32/dehacked.o ../../objs/Mingw/Win32/Dstrings.o ../../objs/Mingw/Win32/F_finale.o ../../objs/Mingw/Win32/F_wipe.o ../../objs/Mingw/Win32/g_game.o ../../objs/Mingw/Win32/g_input.o ../../objs/Mingw/Win32/hu_stuff.o ../../objs/Mingw/Win32/i_tcp.o ../../objs/Mingw/Win32/info.o ../../objs/Mingw/Win32/md5.o ../../objs/Mingw/Win32/mserv.o ../../objs/Mingw/Win32/s_sound.o ../../objs/Mingw/Win32/screen.o ../../objs/Mingw/Win32/sounds.o ../../objs/Mingw/Win32/st_stuff.o ../../objs/Mingw/Win32/tables.o ../../objs/Mingw/Win32/v_video.o ../../objs/Mingw/Win32/w_wad.o ../../objs/Mingw/Win32/Z_zone.o ../../objs/Mingw/Win32/tmap.o ../../objs/Mingw/Win32/vid_copy.o ../../objs/Mingw/Win32/y_inter.o ../../objs/Mingw/Win32/tmap_mmx.o ../../objs/Mingw/Win32/comptime.o ../../objs/Mingw/Win32/string.o ../../objs/Mingw/Win32/lzf.o ../../objs/Mingw/Win32/p_polyobj.o ../../objs/Mingw/Win32/m_queue.o ../../objs/Mingw/Win32/ogl_win.o ../../objs/Mingw/Win32/r_opengl.o ../../objs/Mingw/Win32/p_slopes.o ../../objs/Mingw/Win32/m_vector.o ../../objs/Mingw/Win32/hw_clip.o ../../objs/Mingw/Win32/SRB2CB_private.res
+LINKOBJ   = "../../objs/Mingw/Win32/dx_error.o" "../../objs/Mingw/Win32/fabdxlib.o" "../../objs/Mingw/Win32/filesrch.o" "../../objs/Mingw/Win32/Mid2strm.o" "../../objs/Mingw/Win32/win_cd.o" "../../objs/Mingw/Win32/win_dbg.o" "../../objs/Mingw/Win32/win_dll.o" "../../objs/Mingw/Win32/win_main.o" "../../objs/Mingw/Win32/win_net.o" "../../objs/Mingw/Win32/win_snd.o" "../../objs/Mingw/Win32/win_sys.o" "../../objs/Mingw/Win32/win_vid.o" "../../objs/Mingw/Win32/hw3sound.o" "../../objs/Mingw/Win32/hw_bsp.o" "../../objs/Mingw/Win32/hw_cache.o" "../../objs/Mingw/Win32/hw_draw.o" "../../objs/Mingw/Win32/hw_light.o" "../../objs/Mingw/Win32/hw_main.o" "../../objs/Mingw/Win32/hw_md2.o" "../../objs/Mingw/Win32/hw_trick.o" "../../objs/Mingw/Win32/d_clisrv.o" "../../objs/Mingw/Win32/d_main.o" "../../objs/Mingw/Win32/d_net.o" "../../objs/Mingw/Win32/d_netcmd.o" "../../objs/Mingw/Win32/d_netfil.o" "../../objs/Mingw/Win32/m_argv.o" "../../objs/Mingw/Win32/m_bbox.o" "../../objs/Mingw/Win32/m_cheat.o" "../../objs/Mingw/Win32/m_fixed.o" "../../objs/Mingw/Win32/m_menu.o" "../../objs/Mingw/Win32/m_misc.o" "../../objs/Mingw/Win32/m_random.o" "../../objs/Mingw/Win32/p_ceilng.o" "../../objs/Mingw/Win32/p_enemy.o" "../../objs/Mingw/Win32/p_fab.o" "../../objs/Mingw/Win32/p_floor.o" "../../objs/Mingw/Win32/p_inter.o" "../../objs/Mingw/Win32/p_lights.o" "../../objs/Mingw/Win32/p_map.o" "../../objs/Mingw/Win32/p_maputl.o" "../../objs/Mingw/Win32/p_mobj.o" "../../objs/Mingw/Win32/p_saveg.o" "../../objs/Mingw/Win32/p_setup.o" "../../objs/Mingw/Win32/p_sight.o" "../../objs/Mingw/Win32/p_spec.o" "../../objs/Mingw/Win32/p_telept.o" "../../objs/Mingw/Win32/p_tick.o" "../../objs/Mingw/Win32/p_user.o" "../../objs/Mingw/Win32/r_bsp.o" "../../objs/Mingw/Win32/r_data.o" "../../objs/Mingw/Win32/r_draw.o" "../../objs/Mingw/Win32/r_main.o" "../../objs/Mingw/Win32/r_plane.o" "../../objs/Mingw/Win32/r_segs.o" "../../objs/Mingw/Win32/r_sky.o" "../../objs/Mingw/Win32/r_splats.o" "../../objs/Mingw/Win32/r_things.o" "../../objs/Mingw/Win32/am_map.o" "../../objs/Mingw/Win32/command.o" "../../objs/Mingw/Win32/console.o" "../../objs/Mingw/Win32/dehacked.o" "../../objs/Mingw/Win32/Dstrings.o" "../../objs/Mingw/Win32/F_finale.o" "../../objs/Mingw/Win32/F_wipe.o" "../../objs/Mingw/Win32/g_game.o" "../../objs/Mingw/Win32/g_input.o" "../../objs/Mingw/Win32/hu_stuff.o" "../../objs/Mingw/Win32/i_tcp.o" "../../objs/Mingw/Win32/info.o" "../../objs/Mingw/Win32/md5.o" "../../objs/Mingw/Win32/mserv.o" "../../objs/Mingw/Win32/s_sound.o" "../../objs/Mingw/Win32/screen.o" "../../objs/Mingw/Win32/sounds.o" "../../objs/Mingw/Win32/st_stuff.o" "../../objs/Mingw/Win32/tables.o" "../../objs/Mingw/Win32/v_video.o" "../../objs/Mingw/Win32/w_wad.o" "../../objs/Mingw/Win32/Z_zone.o" "../../objs/Mingw/Win32/tmap.o" "../../objs/Mingw/Win32/vid_copy.o" "../../objs/Mingw/Win32/y_inter.o" "../../objs/Mingw/Win32/tmap_mmx.o" "../../objs/Mingw/Win32/comptime.o" "../../objs/Mingw/Win32/string.o" "../../objs/Mingw/Win32/lzf.o" "../../objs/Mingw/Win32/p_polyobj.o" "../../objs/Mingw/Win32/m_queue.o" "../../objs/Mingw/Win32/ogl_win.o" "../../objs/Mingw/Win32/r_opengl.o" "../../objs/Mingw/Win32/p_slopes.o" "../../objs/Mingw/Win32/m_vector.o" "../../objs/Mingw/Win32/hw_clip.o" ../../objs/Mingw/Win32/SRB2CB_private.res
+LIBS      = -L"C:/Program Files/Dev-Cpp/Lib" -ldinput -ldxguid -lwinmm -lwsock32 -lgdi32 -lopengl32 -lglu32 -lws2_32 ../../tools/libpng-src/projects/libpng.a ../../tools/zlib/win32/libz.a  -mwindows -fmessage-length=0 -march=pentium-mmx -mmmx 
+INCS      = -I"C:/Program Files/Dev-Cpp/Include"
+CXXINCS   = -I"C:/Program Files/Dev-Cpp/lib/gcc/mingw32/3.4.5/include" -I"C:/Program Files/Dev-Cpp/include/c++/3.4.5/backward" -I"C:/Program Files/Dev-Cpp/include/c++/3.4.5/mingw32" -I"C:/Program Files/Dev-Cpp/include/c++/3.4.5" -I"C:/Program Files/Dev-Cpp/include" -I"C:/Program Files/Dev-Cpp/" -I"C:/Program Files/Dev-Cpp/include/3rdparty/wx/plotctrl" -I"C:/Program Files/Dev-Cpp/include/3rdparty/wx/sheet" -I"C:/Program Files/Dev-Cpp/include/3rdparty/wx/treemultictrl" -I"C:/Program Files/Dev-Cpp/include/3rdparty/wx/things" -I"C:/Program Files/Dev-Cpp/include/3rdparty/wx" -I"C:/Program Files/Dev-Cpp/include/3rdparty" -I"C:/Program Files/Dev-Cpp/include/common/wx/msw" -I"C:/Program Files/Dev-Cpp/include/common/wx/generic" -I"C:/Program Files/Dev-Cpp/include/common/wx/fl" -I"C:/Program Files/Dev-Cpp/include/common/wx/gizmos" -I"C:/Program Files/Dev-Cpp/include/common/wx/html" -I"C:/Program Files/Dev-Cpp/include/common/wx/mmedia" -I"C:/Program Files/Dev-Cpp/include/common/wx/net" -I"C:/Program Files/Dev-Cpp/include/common/wx/ogl" -I"C:/Program Files/Dev-Cpp/include/common/wx/plot" -I"C:/Program Files/Dev-Cpp/include/common/wx/protocol" -I"C:/Program Files/Dev-Cpp/include/common/wx/stc" -I"C:/Program Files/Dev-Cpp/include/common/wx/svg" -I"C:/Program Files/Dev-Cpp/include/common/wx/xml" -I"C:/Program Files/Dev-Cpp/include/common/wx/xrc" -I"C:/Program Files/Dev-Cpp/include/common/wx" -I"C:/Program Files/Dev-Cpp/include/common"
+RCINCS    = --include-dir "C:/PROGRA~1/Dev-Cpp/include/common"
+BIN       = ../../bin/Mingw/srb2win.exe
+DEFINES   = 
+CXXFLAGS  = $(CXXINCS) $(DEFINES) -Os   -O3 -mwindows -fmessage-length=0 -march=pentium-mmx -mmmx
+CFLAGS    = $(INCS) $(DEFINES) -fno-exceptions -DSTDC_HEADERS -D_WINDOWS -DRABBIT -DUSEASM -DHAVE_PNG -DUSE_WGL_SWAP -Os -I../../tools/libpng-src -I../../tools/zlib   -O3 -mwindows -fmessage-length=0 -march=pentium-mmx -mmmx
+GPROF     = gprof.exe
+RM        = rm -f
+LINK      = g++.exe
+
+.PHONY: all all-before all-after clean clean-custom
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	$(RM) $(LINKOBJ) "$(BIN)"
+
+$(BIN): $(OBJ)
+	$(LINK) $(LINKOBJ) -o "$(BIN)" $(LIBS) 
+
+../../objs/Mingw/Win32/dx_error.o: $(GLOBALDEPS) dx_error.c
+	$(CC) -c dx_error.c -o ../../objs/Mingw/Win32/dx_error.o $(CFLAGS)
+
+../../objs/Mingw/Win32/fabdxlib.o: $(GLOBALDEPS) fabdxlib.c
+	$(CC) -c fabdxlib.c -o ../../objs/Mingw/Win32/fabdxlib.o $(CFLAGS)
+
+../../objs/Mingw/Win32/filesrch.o: $(GLOBALDEPS) ../filesrch.c
+	$(CC) -c ../filesrch.c -o ../../objs/Mingw/Win32/filesrch.o $(CFLAGS)
+
+../../objs/Mingw/Win32/Mid2strm.o: $(GLOBALDEPS) Mid2strm.c
+	$(CC) -c Mid2strm.c -o ../../objs/Mingw/Win32/Mid2strm.o $(CFLAGS)
+
+../../objs/Mingw/Win32/win_cd.o: $(GLOBALDEPS) win_cd.c
+	$(CC) -c win_cd.c -o ../../objs/Mingw/Win32/win_cd.o $(CFLAGS)
+
+../../objs/Mingw/Win32/win_dbg.o: $(GLOBALDEPS) win_dbg.c
+	$(CC) -c win_dbg.c -o ../../objs/Mingw/Win32/win_dbg.o $(CFLAGS)
+
+../../objs/Mingw/Win32/win_dll.o: $(GLOBALDEPS) win_dll.c
+	$(CC) -c win_dll.c -o ../../objs/Mingw/Win32/win_dll.o $(CFLAGS)
+
+../../objs/Mingw/Win32/win_main.o: $(GLOBALDEPS) win_main.c
+	$(CC) -c win_main.c -o ../../objs/Mingw/Win32/win_main.o $(CFLAGS)
+
+../../objs/Mingw/Win32/win_net.o: $(GLOBALDEPS) win_net.c
+	$(CC) -c win_net.c -o ../../objs/Mingw/Win32/win_net.o $(CFLAGS)
+
+../../objs/Mingw/Win32/win_snd.o: $(GLOBALDEPS) win_snd.c
+	$(CC) -c win_snd.c -o ../../objs/Mingw/Win32/win_snd.o $(CFLAGS)
+
+../../objs/Mingw/Win32/win_sys.o: $(GLOBALDEPS) win_sys.c
+	$(CC) -c win_sys.c -o ../../objs/Mingw/Win32/win_sys.o $(CFLAGS)
+
+../../objs/Mingw/Win32/win_vid.o: $(GLOBALDEPS) win_vid.c
+	$(CC) -c win_vid.c -o ../../objs/Mingw/Win32/win_vid.o $(CFLAGS)
+
+../../objs/Mingw/Win32/hw3sound.o: $(GLOBALDEPS) ../hardware/hw3sound.c
+	$(CC) -c ../hardware/hw3sound.c -o ../../objs/Mingw/Win32/hw3sound.o $(CFLAGS)
+
+../../objs/Mingw/Win32/hw_bsp.o: $(GLOBALDEPS) ../hardware/hw_bsp.c
+	$(CC) -c ../hardware/hw_bsp.c -o ../../objs/Mingw/Win32/hw_bsp.o $(CFLAGS)
+
+../../objs/Mingw/Win32/hw_cache.o: $(GLOBALDEPS) ../hardware/hw_cache.c
+	$(CC) -c ../hardware/hw_cache.c -o ../../objs/Mingw/Win32/hw_cache.o $(CFLAGS)
+
+../../objs/Mingw/Win32/hw_draw.o: $(GLOBALDEPS) ../hardware/hw_draw.c
+	$(CC) -c ../hardware/hw_draw.c -o ../../objs/Mingw/Win32/hw_draw.o $(CFLAGS)
+
+../../objs/Mingw/Win32/hw_light.o: $(GLOBALDEPS) ../hardware/hw_light.c
+	$(CC) -c ../hardware/hw_light.c -o ../../objs/Mingw/Win32/hw_light.o $(CFLAGS)
+
+../../objs/Mingw/Win32/hw_main.o: $(GLOBALDEPS) ../hardware/hw_main.c
+	$(CC) -c ../hardware/hw_main.c -o ../../objs/Mingw/Win32/hw_main.o $(CFLAGS)
+
+../../objs/Mingw/Win32/hw_md2.o: $(GLOBALDEPS) ../hardware/hw_md2.c
+	$(CC) -c ../hardware/hw_md2.c -o ../../objs/Mingw/Win32/hw_md2.o $(CFLAGS)
+
+../../objs/Mingw/Win32/hw_trick.o: $(GLOBALDEPS) ../hardware/hw_trick.c
+	$(CC) -c ../hardware/hw_trick.c -o ../../objs/Mingw/Win32/hw_trick.o $(CFLAGS)
+
+../../objs/Mingw/Win32/d_clisrv.o: $(GLOBALDEPS) ../d_clisrv.c
+	$(CC) -c ../d_clisrv.c -o ../../objs/Mingw/Win32/d_clisrv.o $(CFLAGS)
+
+../../objs/Mingw/Win32/d_main.o: $(GLOBALDEPS) ../d_main.c
+	$(CC) -c ../d_main.c -o ../../objs/Mingw/Win32/d_main.o $(CFLAGS)
+
+../../objs/Mingw/Win32/d_net.o: $(GLOBALDEPS) ../d_net.c
+	$(CC) -c ../d_net.c -o ../../objs/Mingw/Win32/d_net.o $(CFLAGS)
+
+../../objs/Mingw/Win32/d_netcmd.o: $(GLOBALDEPS) ../d_netcmd.c
+	$(CC) -c ../d_netcmd.c -o ../../objs/Mingw/Win32/d_netcmd.o $(CFLAGS)
+
+../../objs/Mingw/Win32/d_netfil.o: $(GLOBALDEPS) ../d_netfil.c
+	$(CC) -c ../d_netfil.c -o ../../objs/Mingw/Win32/d_netfil.o $(CFLAGS)
+
+../../objs/Mingw/Win32/m_argv.o: $(GLOBALDEPS) ../m_argv.c
+	$(CC) -c ../m_argv.c -o ../../objs/Mingw/Win32/m_argv.o $(CFLAGS)
+
+../../objs/Mingw/Win32/m_bbox.o: $(GLOBALDEPS) ../m_bbox.c
+	$(CC) -c ../m_bbox.c -o ../../objs/Mingw/Win32/m_bbox.o $(CFLAGS)
+
+../../objs/Mingw/Win32/m_cheat.o: $(GLOBALDEPS) ../m_cheat.c
+	$(CC) -c ../m_cheat.c -o ../../objs/Mingw/Win32/m_cheat.o $(CFLAGS)
+
+../../objs/Mingw/Win32/m_fixed.o: $(GLOBALDEPS) ../m_fixed.c
+	$(CC) -c ../m_fixed.c -o ../../objs/Mingw/Win32/m_fixed.o $(CFLAGS)
+
+../../objs/Mingw/Win32/m_menu.o: $(GLOBALDEPS) ../m_menu.c
+	$(CC) -c ../m_menu.c -o ../../objs/Mingw/Win32/m_menu.o $(CFLAGS)
+
+../../objs/Mingw/Win32/m_misc.o: $(GLOBALDEPS) ../m_misc.c
+	$(CC) -c ../m_misc.c -o ../../objs/Mingw/Win32/m_misc.o $(CFLAGS)
+
+../../objs/Mingw/Win32/m_random.o: $(GLOBALDEPS) ../m_random.c
+	$(CC) -c ../m_random.c -o ../../objs/Mingw/Win32/m_random.o $(CFLAGS)
+
+../../objs/Mingw/Win32/p_ceilng.o: $(GLOBALDEPS) ../p_ceilng.c
+	$(CC) -c ../p_ceilng.c -o ../../objs/Mingw/Win32/p_ceilng.o $(CFLAGS)
+
+../../objs/Mingw/Win32/p_enemy.o: $(GLOBALDEPS) ../p_enemy.c
+	$(CC) -c ../p_enemy.c -o ../../objs/Mingw/Win32/p_enemy.o $(CFLAGS)
+
+../../objs/Mingw/Win32/p_fab.o: $(GLOBALDEPS) ../p_fab.c
+	$(CC) -c ../p_fab.c -o ../../objs/Mingw/Win32/p_fab.o $(CFLAGS)
+
+../../objs/Mingw/Win32/p_floor.o: $(GLOBALDEPS) ../p_floor.c
+	$(CC) -c ../p_floor.c -o ../../objs/Mingw/Win32/p_floor.o $(CFLAGS)
+
+../../objs/Mingw/Win32/p_inter.o: $(GLOBALDEPS) ../p_inter.c
+	$(CC) -c ../p_inter.c -o ../../objs/Mingw/Win32/p_inter.o $(CFLAGS)
+
+../../objs/Mingw/Win32/p_lights.o: $(GLOBALDEPS) ../p_lights.c
+	$(CC) -c ../p_lights.c -o ../../objs/Mingw/Win32/p_lights.o $(CFLAGS)
+
+../../objs/Mingw/Win32/p_map.o: $(GLOBALDEPS) ../p_map.c
+	$(CC) -c ../p_map.c -o ../../objs/Mingw/Win32/p_map.o $(CFLAGS)
+
+../../objs/Mingw/Win32/p_maputl.o: $(GLOBALDEPS) ../p_maputl.c
+	$(CC) -c ../p_maputl.c -o ../../objs/Mingw/Win32/p_maputl.o $(CFLAGS)
+
+../../objs/Mingw/Win32/p_mobj.o: $(GLOBALDEPS) ../p_mobj.c
+	$(CC) -c ../p_mobj.c -o ../../objs/Mingw/Win32/p_mobj.o $(CFLAGS)
+
+../../objs/Mingw/Win32/p_saveg.o: $(GLOBALDEPS) ../p_saveg.c
+	$(CC) -c ../p_saveg.c -o ../../objs/Mingw/Win32/p_saveg.o $(CFLAGS)
+
+../../objs/Mingw/Win32/p_setup.o: $(GLOBALDEPS) ../p_setup.c
+	$(CC) -c ../p_setup.c -o ../../objs/Mingw/Win32/p_setup.o $(CFLAGS)
+
+../../objs/Mingw/Win32/p_sight.o: $(GLOBALDEPS) ../p_sight.c
+	$(CC) -c ../p_sight.c -o ../../objs/Mingw/Win32/p_sight.o $(CFLAGS)
+
+../../objs/Mingw/Win32/p_spec.o: $(GLOBALDEPS) ../p_spec.c
+	$(CC) -c ../p_spec.c -o ../../objs/Mingw/Win32/p_spec.o $(CFLAGS)
+
+../../objs/Mingw/Win32/p_telept.o: $(GLOBALDEPS) ../p_telept.c
+	$(CC) -c ../p_telept.c -o ../../objs/Mingw/Win32/p_telept.o $(CFLAGS)
+
+../../objs/Mingw/Win32/p_tick.o: $(GLOBALDEPS) ../p_tick.c
+	$(CC) -c ../p_tick.c -o ../../objs/Mingw/Win32/p_tick.o $(CFLAGS)
+
+../../objs/Mingw/Win32/p_user.o: $(GLOBALDEPS) ../p_user.c
+	$(CC) -c ../p_user.c -o ../../objs/Mingw/Win32/p_user.o $(CFLAGS)
+
+../../objs/Mingw/Win32/r_bsp.o: $(GLOBALDEPS) ../r_bsp.c
+	$(CC) -c ../r_bsp.c -o ../../objs/Mingw/Win32/r_bsp.o $(CFLAGS)
+
+../../objs/Mingw/Win32/r_data.o: $(GLOBALDEPS) ../r_data.c
+	$(CC) -c ../r_data.c -o ../../objs/Mingw/Win32/r_data.o $(CFLAGS)
+
+../../objs/Mingw/Win32/r_draw.o: $(GLOBALDEPS) ../r_draw.c
+	$(CC) -c ../r_draw.c -o ../../objs/Mingw/Win32/r_draw.o $(CFLAGS)
+
+../../objs/Mingw/Win32/r_main.o: $(GLOBALDEPS) ../r_main.c
+	$(CC) -c ../r_main.c -o ../../objs/Mingw/Win32/r_main.o $(CFLAGS)
+
+../../objs/Mingw/Win32/r_plane.o: $(GLOBALDEPS) ../r_plane.c
+	$(CC) -c ../r_plane.c -o ../../objs/Mingw/Win32/r_plane.o $(CFLAGS)
+
+../../objs/Mingw/Win32/r_segs.o: $(GLOBALDEPS) ../r_segs.c
+	$(CC) -c ../r_segs.c -o ../../objs/Mingw/Win32/r_segs.o $(CFLAGS)
+
+../../objs/Mingw/Win32/r_sky.o: $(GLOBALDEPS) ../r_sky.c
+	$(CC) -c ../r_sky.c -o ../../objs/Mingw/Win32/r_sky.o $(CFLAGS)
+
+../../objs/Mingw/Win32/r_splats.o: $(GLOBALDEPS) ../r_splats.c
+	$(CC) -c ../r_splats.c -o ../../objs/Mingw/Win32/r_splats.o $(CFLAGS)
+
+../../objs/Mingw/Win32/r_things.o: $(GLOBALDEPS) ../r_things.c
+	$(CC) -c ../r_things.c -o ../../objs/Mingw/Win32/r_things.o $(CFLAGS)
+
+../../objs/Mingw/Win32/am_map.o: $(GLOBALDEPS) ../am_map.c
+	$(CC) -c ../am_map.c -o ../../objs/Mingw/Win32/am_map.o $(CFLAGS)
+
+../../objs/Mingw/Win32/command.o: $(GLOBALDEPS) ../command.c
+	$(CC) -c ../command.c -o ../../objs/Mingw/Win32/command.o $(CFLAGS)
+
+../../objs/Mingw/Win32/console.o: $(GLOBALDEPS) ../console.c
+	$(CC) -c ../console.c -o ../../objs/Mingw/Win32/console.o $(CFLAGS)
+
+../../objs/Mingw/Win32/dehacked.o: $(GLOBALDEPS) ../dehacked.c
+	$(CC) -c ../dehacked.c -o ../../objs/Mingw/Win32/dehacked.o $(CFLAGS)
+
+../../objs/Mingw/Win32/Dstrings.o: $(GLOBALDEPS) ../Dstrings.c
+	$(CC) -c ../Dstrings.c -o ../../objs/Mingw/Win32/Dstrings.o $(CFLAGS)
+
+../../objs/Mingw/Win32/F_finale.o: $(GLOBALDEPS) ../F_finale.c
+	$(CC) -c ../F_finale.c -o ../../objs/Mingw/Win32/F_finale.o $(CFLAGS)
+
+../../objs/Mingw/Win32/F_wipe.o: $(GLOBALDEPS) ../F_wipe.c
+	$(CC) -c ../F_wipe.c -o ../../objs/Mingw/Win32/F_wipe.o $(CFLAGS)
+
+../../objs/Mingw/Win32/g_game.o: $(GLOBALDEPS) ../g_game.c
+	$(CC) -c ../g_game.c -o ../../objs/Mingw/Win32/g_game.o $(CFLAGS)
+
+../../objs/Mingw/Win32/g_input.o: $(GLOBALDEPS) ../g_input.c
+	$(CC) -c ../g_input.c -o ../../objs/Mingw/Win32/g_input.o $(CFLAGS)
+
+../../objs/Mingw/Win32/hu_stuff.o: $(GLOBALDEPS) ../hu_stuff.c
+	$(CC) -c ../hu_stuff.c -o ../../objs/Mingw/Win32/hu_stuff.o $(CFLAGS)
+
+../../objs/Mingw/Win32/i_tcp.o: $(GLOBALDEPS) ../i_tcp.c
+	$(CC) -c ../i_tcp.c -o ../../objs/Mingw/Win32/i_tcp.o $(CFLAGS)
+
+../../objs/Mingw/Win32/info.o: $(GLOBALDEPS) ../info.c
+	$(CC) -c ../info.c -o ../../objs/Mingw/Win32/info.o $(CFLAGS)
+
+../../objs/Mingw/Win32/md5.o: $(GLOBALDEPS) ../md5.c
+	$(CC) -c ../md5.c -o ../../objs/Mingw/Win32/md5.o $(CFLAGS)
+
+../../objs/Mingw/Win32/mserv.o: $(GLOBALDEPS) ../mserv.c
+	$(CC) -c ../mserv.c -o ../../objs/Mingw/Win32/mserv.o $(CFLAGS)
+
+../../objs/Mingw/Win32/s_sound.o: $(GLOBALDEPS) ../s_sound.c
+	$(CC) -c ../s_sound.c -o ../../objs/Mingw/Win32/s_sound.o $(CFLAGS)
+
+../../objs/Mingw/Win32/screen.o: $(GLOBALDEPS) ../screen.c
+	$(CC) -c ../screen.c -o ../../objs/Mingw/Win32/screen.o $(CFLAGS)
+
+../../objs/Mingw/Win32/sounds.o: $(GLOBALDEPS) ../sounds.c
+	$(CC) -c ../sounds.c -o ../../objs/Mingw/Win32/sounds.o $(CFLAGS)
+
+../../objs/Mingw/Win32/st_stuff.o: $(GLOBALDEPS) ../st_stuff.c
+	$(CC) -c ../st_stuff.c -o ../../objs/Mingw/Win32/st_stuff.o $(CFLAGS)
+
+../../objs/Mingw/Win32/tables.o: $(GLOBALDEPS) ../tables.c
+	$(CC) -c ../tables.c -o ../../objs/Mingw/Win32/tables.o $(CFLAGS)
+
+../../objs/Mingw/Win32/v_video.o: $(GLOBALDEPS) ../v_video.c
+	$(CC) -c ../v_video.c -o ../../objs/Mingw/Win32/v_video.o $(CFLAGS)
+
+../../objs/Mingw/Win32/w_wad.o: $(GLOBALDEPS) ../w_wad.c
+	$(CC) -c ../w_wad.c -o ../../objs/Mingw/Win32/w_wad.o $(CFLAGS)
+
+../../objs/Mingw/Win32/Z_zone.o: $(GLOBALDEPS) ../Z_zone.c
+	$(CC) -c ../Z_zone.c -o ../../objs/Mingw/Win32/Z_zone.o $(CFLAGS)
+
+../../objs/Mingw/Win32/tmap.o: $(GLOBALDEPS) ../tmap.nas
+	nasmw.exe -o ../../objs/Mingw/Win32/tmap.o -f win32 ../tmap.nas
+
+../../objs/Mingw/Win32/vid_copy.o: $(GLOBALDEPS) ../vid_copy.s
+	$(CC) -g $(CXXFLAGS) -x assembler-with-cpp -c ../vid_copy.s -o ../../objs/Mingw/win32/vid_copy.o
+
+../../objs/Mingw/Win32/y_inter.o: $(GLOBALDEPS) ../y_inter.c
+	$(CC) -c ../y_inter.c -o ../../objs/Mingw/Win32/y_inter.o $(CFLAGS)
+
+../../objs/Mingw/Win32/tmap_mmx.o: $(GLOBALDEPS) ../tmap_mmx.nas
+	nasmw.exe -o ../../objs/Mingw/Win32/tmap_mmx.o -f win32 ../tmap_mmx.nas
+
+../../objs/Mingw/Win32/comptime.o: $(GLOBALDEPS) ../comptime.c
+	$(CC) -c ../comptime.c -o ../../objs/Mingw/Win32/comptime.o $(CFLAGS)
+
+../../objs/Mingw/Win32/string.o: $(GLOBALDEPS) ../string.c
+	$(CC) -c ../string.c -o ../../objs/Mingw/Win32/string.o $(CFLAGS)
+
+../../objs/Mingw/Win32/lzf.o: $(GLOBALDEPS) ../lzf.c
+	$(CC) -c ../lzf.c -o ../../objs/Mingw/Win32/lzf.o $(CFLAGS)
+
+../../objs/Mingw/Win32/p_polyobj.o: $(GLOBALDEPS) ../p_polyobj.c
+	$(CC) -c ../p_polyobj.c -o ../../objs/Mingw/Win32/p_polyobj.o $(CFLAGS)
+
+../../objs/Mingw/Win32/m_queue.o: $(GLOBALDEPS) ../m_queue.c
+	$(CC) -c ../m_queue.c -o ../../objs/Mingw/Win32/m_queue.o $(CFLAGS)
+
+../../objs/Mingw/Win32/ogl_win.o: $(GLOBALDEPS) ../hardware/r_opengl/ogl_win.c
+	$(CC) -c ../hardware/r_opengl/ogl_win.c -o ../../objs/Mingw/Win32/ogl_win.o $(CFLAGS)
+
+../../objs/Mingw/Win32/r_opengl.o: $(GLOBALDEPS) ../hardware/r_opengl/r_opengl.c
+	$(CC) -c ../hardware/r_opengl/r_opengl.c -o ../../objs/Mingw/Win32/r_opengl.o $(CFLAGS)
+
+../../objs/Mingw/Win32/p_slopes.o: $(GLOBALDEPS) ../p_slopes.c
+	$(CC) -c ../p_slopes.c -o ../../objs/Mingw/Win32/p_slopes.o $(CFLAGS)
+
+../../objs/Mingw/Win32/m_vector.o: $(GLOBALDEPS) ../m_vector.c
+	$(CC) -c ../m_vector.c -o ../../objs/Mingw/Win32/m_vector.o $(CFLAGS)
+
+../../objs/Mingw/Win32/hw_clip.o: $(GLOBALDEPS) ../hardware/hw_clip.c
+	$(CC) -c ../hardware/hw_clip.c -o ../../objs/Mingw/Win32/hw_clip.o $(CFLAGS)
+
+../../objs/Mingw/Win32/SRB2CB_private.res: ../../objs/Mingw/Win32/SRB2CB_private.rc Srb2win.rc 
+	$(WINDRES) --input-format=rc -o ../../objs/Mingw/Win32/SRB2CB_private.res $(RCINCS) ../../objs/Mingw/Win32/SRB2CB~1.RC -O coff

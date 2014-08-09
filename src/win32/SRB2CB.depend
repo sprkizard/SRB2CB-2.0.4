@@ -1,0 +1,3729 @@
+# depslib dependency file v1.0
+1308877522 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\am_map.c
+	"g_game.h"
+	"am_map.h"
+	"g_input.h"
+	"p_local.h"
+	"v_video.h"
+	"i_video.h"
+	"r_state.h"
+	"r_draw.h"
+	"hardware/hw_main.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\g_game.h
+	"doomdef.h"
+	"doomstat.h"
+	"d_event.h"
+
+1309891724 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\doomdef.h
+	"doomtype.h"
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<ctype.h>
+	<io.h>
+	<conio.h>
+	"g_state.h"
+	"m_swap.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\doomtype.h
+	<windows.h>
+	<arch/types.h>
+	<stdint.h>
+	<dos.h>
+	<sys\types.h>
+	<direct.h>
+	<malloc.h>
+	<malloc.h>
+	<stddef.h>
+	<limits.h>
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\g_state.h
+	"doomtype.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\m_swap.h
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\doomstat.h
+	"doomdata.h"
+	"d_player.h"
+	"d_clisrv.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\doomdata.h
+	"doomtype.h"
+	"doomdef.h"
+
+1309891354 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\d_player.h
+	"p_pspr.h"
+	"p_mobj.h"
+	"d_ticcmd.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\p_pspr.h
+	"m_fixed.h"
+	"tables.h"
+	"info.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\m_fixed.h
+	"doomtype.h"
+	<math.h>
+	<stdlib.h>
+	"sdl/SRB2CE/cehelp.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\sdl\srb2ce\cehelp.h
+
+1308508494 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\tables.h
+	<math.h>
+	"m_fixed.h"
+
+1309230794 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\info.h
+	"d_think.h"
+	"sounds.h"
+	"w_wad.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\d_think.h
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\sounds.h
+
+1309279030 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\w_wad.h
+	"hardware/hw_data.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\hardware\hw_data.h
+	<windows.h>
+	<GL/glx.h>
+	"../doomdef.h"
+	"../screen.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\screen.h
+	"command.h"
+	<sys/wcetypes.h>
+	<windows.h>
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\command.h
+	<stdio.h>
+	"doomtype.h"
+	"dstrings.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\dstrings.h
+
+1309370436 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\p_mobj.h
+	"tables.h"
+	"m_fixed.h"
+	"d_think.h"
+	"doomdata.h"
+	"info.h"
+	"m_vector.h"
+
+1308704762 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\m_vector.h
+	"m_fixed.h"
+	"tables.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\d_ticcmd.h
+	"m_fixed.h"
+	"doomtype.h"
+
+1309891354 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\d_clisrv.h
+	"d_ticcmd.h"
+	"d_netcmd.h"
+	"tables.h"
+	"d_player.h"
+
+1308699650 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\d_netcmd.h
+	"command.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\d_event.h
+	"doomtype.h"
+	"g_state.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\am_map.h
+	"d_event.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\g_input.h
+	"d_event.h"
+	"keys.h"
+	"command.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\keys.h
+
+1309893796 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\p_local.h
+	"command.h"
+	"d_player.h"
+	"d_think.h"
+	"m_fixed.h"
+	"m_bbox.h"
+	"p_tick.h"
+	"r_defs.h"
+	"p_maputl.h"
+	"p_spec.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\m_bbox.h
+	"m_fixed.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\p_tick.h
+
+1308704762 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\r_defs.h
+	"m_fixed.h"
+	"d_think.h"
+	"p_mobj.h"
+	"screen.h"
+	"m_vector.h"
+	"p_polyobj.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\p_polyobj.h
+	"m_dllist.h"
+	"p_mobj.h"
+	"r_defs.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\m_dllist.h
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\p_maputl.h
+	"doomtype.h"
+	"r_defs.h"
+	"m_fixed.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\p_spec.h
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\v_video.h
+	"doomdef.h"
+	"doomtype.h"
+	"r_defs.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\i_video.h
+	"doomtype.h"
+
+1309366370 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\r_state.h
+	"d_player.h"
+	"r_data.h"
+
+1309883370 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\r_data.h
+	"r_defs.h"
+	"r_state.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\r_draw.h
+	"r_defs.h"
+
+1309888648 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\hardware\hw_main.h
+	"hw_data.h"
+	"hw_defs.h"
+	"../am_map.h"
+	"../d_player.h"
+	"../r_defs.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\hardware\hw_defs.h
+	"../doomtype.h"
+
+1309064826 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\command.c
+	"doomdef.h"
+	"doomstat.h"
+	"command.h"
+	"console.h"
+	"z_zone.h"
+	"m_menu.h"
+	"m_misc.h"
+	"m_fixed.h"
+	"m_argv.h"
+	"byteptr.h"
+	"p_saveg.h"
+	"g_game.h"
+	"d_netcmd.h"
+	"hu_stuff.h"
+	"hardware/hw_main.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\console.h
+	"d_event.h"
+	"command.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\z_zone.h
+	<stdio.h>
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\m_menu.h
+	"d_event.h"
+	"command.h"
+
+1309893432 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\m_misc.h
+	"doomtype.h"
+	"w_wad.h"
+	"png.h"
+
+1250360956 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\tools\libpng-src\png.h
+	"zlib.h"
+	"pngconf.h"
+	<crtdbg.h>
+
+1248474564 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\tools\zlib\zlib.h
+	"zconf.h"
+
+1248474564 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\tools\zlib\zconf.h
+	<windows.h>
+	<sys/types.h>
+	<unistd.h>
+	<unixio.h>
+	<sys/types.h>
+
+1250360956 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\tools\libpng-src\pngconf.h
+	"pngusr.h"
+	"config.h"
+	<windows.h>
+	<stdio.h>
+	<stdio.h>
+	<sys/types.h>
+	<setjmp.h>
+	<strings.h>
+	<string.h>
+	<stdlib.h>
+	<fp.h>
+	<math.h>
+	<m68881.h>
+	<mem.h>
+	<alloc.h>
+	<malloc.h>
+	<time.h>
+	<dos.h>
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\m_argv.h
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\byteptr.h
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\p_saveg.h
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\hu_stuff.h
+	"d_event.h"
+	"w_wad.h"
+	"r_defs.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\comptime.c
+
+1308877522 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\console.c
+	<unistd.h>
+	<openxdk/debug.h>
+	"doomdef.h"
+	"console.h"
+	"g_game.h"
+	"g_input.h"
+	"hu_stuff.h"
+	"keys.h"
+	"r_defs.h"
+	"sounds.h"
+	"st_stuff.h"
+	"s_sound.h"
+	"v_video.h"
+	"i_video.h"
+	"z_zone.h"
+	"i_system.h"
+	"d_main.h"
+	"m_menu.h"
+	"win32/win_main.h"
+	"hardware/hw_main.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\st_stuff.h
+	"doomtype.h"
+	"d_event.h"
+	"d_player.h"
+	"r_defs.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\s_sound.h
+	"sounds.h"
+	"m_fixed.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\i_system.h
+	"d_ticcmd.h"
+	"d_event.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\d_main.h
+	"d_event.h"
+	"w_wad.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\win32\win_main.h
+	<windows.h>
+	<stdio.h>
+
+1309891228 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\d_clisrv.c
+	<time.h>
+	<unistd.h>
+	"i_net.h"
+	"i_system.h"
+	"i_video.h"
+	"d_net.h"
+	"d_main.h"
+	"dstrings.h"
+	"g_game.h"
+	"hu_stuff.h"
+	"keys.h"
+	"m_menu.h"
+	"console.h"
+	"d_netfil.h"
+	"byteptr.h"
+	"p_saveg.h"
+	"z_zone.h"
+	"p_local.h"
+	"m_misc.h"
+	"am_map.h"
+	"m_random.h"
+	"mserv.h"
+	"y_inter.h"
+	"r_local.h"
+	"m_argv.h"
+	"p_setup.h"
+	"p_bots.h"
+	"sdl/SRB2XBOX/xboxhelp.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\i_net.h
+	"doomdef.h"
+	"command.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\d_net.h
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\d_netfil.h
+	"w_wad.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\m_random.h
+	"doomtype.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\mserv.h
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\y_inter.h
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\r_local.h
+	"doomdef.h"
+	"tables.h"
+	"screen.h"
+	"m_bbox.h"
+	"r_main.h"
+	"r_bsp.h"
+	"r_segs.h"
+	"r_plane.h"
+	"r_sky.h"
+	"r_data.h"
+	"r_things.h"
+	"r_draw.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\r_main.h
+	"d_player.h"
+	"r_data.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\r_bsp.h
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\r_segs.h
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\r_plane.h
+	"screen.h"
+	"r_data.h"
+	"p_polyobj.h"
+	"p_slopes.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\p_slopes.h
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\r_sky.h
+	"m_fixed.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\r_things.h
+	"sounds.h"
+	"r_plane.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\p_setup.h
+	"doomdata.h"
+	"r_defs.h"
+
+1309285506 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\p_bots.h
+	"r_defs.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\sdl\srb2xbox\xboxhelp.h
+
+1309891354 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\d_main.c
+	<sys/stat.h>
+	<sys/types.h>
+	<unistd.h>
+	<stdio.h>
+	<direct.h>
+	<malloc.h>
+	<time.h>
+	"doomdef.h"
+	"am_map.h"
+	"console.h"
+	"d_net.h"
+	"dstrings.h"
+	"f_finale.h"
+	"g_game.h"
+	"hu_stuff.h"
+	"i_sound.h"
+	"i_system.h"
+	"i_video.h"
+	"m_argv.h"
+	"m_menu.h"
+	"m_misc.h"
+	"p_setup.h"
+	"p_saveg.h"
+	"r_main.h"
+	"r_local.h"
+	"s_sound.h"
+	"st_stuff.h"
+	"v_video.h"
+	"w_wad.h"
+	"z_zone.h"
+	"d_main.h"
+	"d_netfil.h"
+	"m_cheat.h"
+	"y_inter.h"
+	"p_local.h"
+	"mserv.h"
+	"hardware/hw_md2.h"
+	"sdl/SRB2XBOX/xboxhelp.h"
+	"hardware/hw_main.h"
+	"win32/win_main.h"
+	"hardware/hw3sound.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\f_finale.h
+	"doomtype.h"
+	"d_event.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\i_sound.h
+	"doomdef.h"
+	"sounds.h"
+	"command.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\m_cheat.h
+	"d_event.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\hardware\hw_md2.h
+	"hw_glob.h"
+	"../r_things.h"
+
+1309271704 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\hardware\hw_glob.h
+	"hw_defs.h"
+	"hw_main.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\hardware\hw3sound.h
+	"hws_data.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\hardware\hws_data.h
+
+1309891724 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\d_net.c
+	"doomdef.h"
+	"dstrings.h"
+	"g_game.h"
+	"i_net.h"
+	"i_system.h"
+	"m_argv.h"
+	"d_net.h"
+	"w_wad.h"
+	"d_netfil.h"
+	"d_clisrv.h"
+	"z_zone.h"
+	"i_tcp.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\i_tcp.h
+
+1309891724 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\d_netcmd.c
+	"doomdef.h"
+	"console.h"
+	"command.h"
+	"i_system.h"
+	"dstrings.h"
+	"g_game.h"
+	"hu_stuff.h"
+	"g_input.h"
+	"m_menu.h"
+	"r_local.h"
+	"r_things.h"
+	"p_local.h"
+	"p_setup.h"
+	"s_sound.h"
+	"m_misc.h"
+	"am_map.h"
+	"byteptr.h"
+	"d_netfil.h"
+	"p_spec.h"
+	"m_cheat.h"
+	"d_clisrv.h"
+	"v_video.h"
+	"d_main.h"
+	"m_random.h"
+	"f_finale.h"
+	"mserv.h"
+	"md5.h"
+	"z_zone.h"
+	"i_net.h"
+	"d_net.h"
+	"p_bots.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\md5.h
+	<stdio.h>
+	<limits.h>
+	<sys/types.h>
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\d_netfil.c
+	<stdio.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<time.h>
+	<io.h>
+	<direct.h>
+	<sys/types.h>
+	<dirent.h>
+	<utime.h>
+	<unistd.h>
+	<sys/utime.h>
+	<dir.h>
+	<utime.h>
+	"doomdef.h"
+	"doomstat.h"
+	"d_main.h"
+	"dstrings.h"
+	"g_game.h"
+	"i_net.h"
+	"i_system.h"
+	"m_argv.h"
+	"d_net.h"
+	"w_wad.h"
+	"d_netfil.h"
+	"z_zone.h"
+	"byteptr.h"
+	"p_setup.h"
+	"m_misc.h"
+	"m_menu.h"
+	"md5.h"
+	"filesrch.h"
+	"v_video.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\filesrch.h
+	"doomdef.h"
+	"d_netfil.h"
+
+1309230794 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\dehacked.c
+	"doomdef.h"
+	"g_game.h"
+	"sounds.h"
+	"info.h"
+	"d_think.h"
+	"dstrings.h"
+	"m_argv.h"
+	"z_zone.h"
+	"w_wad.h"
+	"m_menu.h"
+	"m_misc.h"
+	"f_finale.h"
+	"dehacked.h"
+	"st_stuff.h"
+	"i_system.h"
+	"hardware/hw_light.h"
+	<stdio.h>
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\dehacked.h
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\hardware\hw_light.h
+	"hw_glob.h"
+	"hw_defs.h"
+
+1309271704 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\dstrings.c
+	"doomdef.h"
+	"dstrings.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\f_finale.c
+	"doomdef.h"
+	"doomstat.h"
+	"am_map.h"
+	"dstrings.h"
+	"d_main.h"
+	"f_finale.h"
+	"g_game.h"
+	"hu_stuff.h"
+	"r_local.h"
+	"s_sound.h"
+	"i_video.h"
+	"v_video.h"
+	"w_wad.h"
+	"z_zone.h"
+	"i_system.h"
+	"m_menu.h"
+	"dehacked.h"
+	"g_input.h"
+	"console.h"
+	"m_random.h"
+	"y_inter.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\f_wipe.c
+	"i_video.h"
+	"v_video.h"
+	"r_draw.h"
+	"p_pspr.h"
+	"i_system.h"
+	"m_menu.h"
+	"f_finale.h"
+	"r_main.h"
+	"hardware/hw_main.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\filesrch.c
+	<stdio.h>
+	<dirent.h>
+	<windows.h>
+	"sdl/SRB2CE/cehelp.h"
+	<sys/stat.h>
+	<string.h>
+	"filesrch.h"
+	"d_netfil.h"
+	"m_misc.h"
+	<errno.h>
+	<io.h>
+	<tchar.h>
+
+1309891440 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\g_game.c
+	"doomdef.h"
+	"console.h"
+	"dstrings.h"
+	"d_main.h"
+	"f_finale.h"
+	"p_setup.h"
+	"p_saveg.h"
+	"i_system.h"
+	"am_map.h"
+	"m_random.h"
+	"p_local.h"
+	"r_draw.h"
+	"r_main.h"
+	"s_sound.h"
+	"g_game.h"
+	"m_cheat.h"
+	"m_misc.h"
+	"m_menu.h"
+	"m_argv.h"
+	"hu_stuff.h"
+	"st_stuff.h"
+	"z_zone.h"
+	"i_video.h"
+	"byteptr.h"
+	"i_joy.h"
+	"r_local.h"
+	"r_things.h"
+	"y_inter.h"
+	"v_video.h"
+	"p_bots.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\i_joy.h
+	"g_input.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\g_input.c
+	"doomdef.h"
+	"doomstat.h"
+	"g_input.h"
+	"keys.h"
+	"hu_stuff.h"
+	"keys.h"
+	"d_net.h"
+	"console.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\hardware\hw3sound.c
+	"../doomdef.h"
+	"../i_sound.h"
+	"../s_sound.h"
+	"../w_wad.h"
+	"../z_zone.h"
+	"../g_game.h"
+	"../tables.h"
+	"../sounds.h"
+	"../r_main.h"
+	"../r_things.h"
+	"../m_random.h"
+	"../p_local.h"
+	"hw3dsdrv.h"
+	"hw3sound.h"
+	"hw_drv.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\hardware\hw3dsdrv.h
+	"hw_dll.h"
+	"hws_data.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\hardware\hw_dll.h
+
+1309880022 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\hardware\hw_drv.h
+	"../screen.h"
+	"hw_data.h"
+	"hw_defs.h"
+	"hw_md2.h"
+	"r_opengl/r_opengl.h"
+	"hw_dll.h"
+
+1309230794 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\hardware\r_opengl\r_opengl.h
+	<SDL_opengl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"../../doomdef.h"
+	"../hw_drv.h"
+
+1308879118 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\hardware\hw_bsp.c
+	"../doomdef.h"
+	"../doomstat.h"
+	"hw_glob.h"
+	"../r_local.h"
+	"../z_zone.h"
+	"../console.h"
+	"../v_video.h"
+	"../m_menu.h"
+	"../i_system.h"
+	"../m_argv.h"
+	"../i_video.h"
+	"../w_wad.h"
+
+1309373432 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\hardware\hw_cache.c
+	"../doomdef.h"
+	"hw_glob.h"
+	"hw_drv.h"
+	"../doomstat.h"
+	"../i_video.h"
+	"../r_data.h"
+	"../w_wad.h"
+	"../z_zone.h"
+	"../v_video.h"
+	"../r_draw.h"
+	"../m_misc.h"
+	"../p_setup.h"
+	"../w_wad.h"
+	"png.h"
+
+1308879118 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\hardware\hw_clip.c
+	<math.h>
+	"../v_video.h"
+	"hw_clip.h"
+	"hw_glob.h"
+	"../r_state.h"
+	"../tables.h"
+	"r_opengl/r_opengl.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\hardware\hw_clip.h
+	"../doomdef.h"
+	"../tables.h"
+	"../doomtype.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\hardware\hw_draw.c
+	<unistd.h>
+	"../doomdef.h"
+	"hw_glob.h"
+	"hw_drv.h"
+	"../r_draw.h"
+	"../m_misc.h"
+	"../r_main.h"
+	"../w_wad.h"
+	"../z_zone.h"
+	"../v_video.h"
+	"../st_stuff.h"
+	<sys/unistd.h>
+	<io.h>
+	<fcntl.h>
+	"../i_video.h"
+
+1308879118 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\hardware\hw_light.c
+	"../doomdef.h"
+	"hw_main.h"
+	"hw_light.h"
+	"hw_drv.h"
+	"../i_video.h"
+	"../z_zone.h"
+	"../m_random.h"
+	"../m_bbox.h"
+	"../w_wad.h"
+	"../r_state.h"
+	"../r_main.h"
+	"../p_local.h"
+
+1309894110 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\hardware\hw_main.c
+	<math.h>
+	"../doomstat.h"
+	"hw_glob.h"
+	"hw_light.h"
+	"hw_drv.h"
+	"../i_video.h"
+	"../v_video.h"
+	"../p_local.h"
+	"../p_setup.h"
+	"../r_local.h"
+	"../r_bsp.h"
+	"../d_clisrv.h"
+	"../w_wad.h"
+	"../z_zone.h"
+	"../r_splats.h"
+	"../g_game.h"
+	"../st_stuff.h"
+	"../i_system.h"
+	"../m_misc.h"
+	"r_opengl/r_opengl.h"
+	"hw_md2.h"
+	"../p_slopes.h"
+	"hw_clip.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\r_splats.h
+	"r_defs.h"
+
+1309230794 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\hardware\hw_md2.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"png.h"
+	"../doomdef.h"
+	"hw_drv.h"
+	"hw_light.h"
+	"hw_md2.h"
+	"../r_main.h"
+	"../r_things.h"
+	"../r_bsp.h"
+	"../m_misc.h"
+	"../w_wad.h"
+	"../z_zone.h"
+	"hw_main.h"
+	"../d_main.h"
+	"../doomstat.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\hardware\hw_trick.c
+
+1309064826 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\hardware\r_opengl\ogl_win.c
+	<windows.h>
+	<time.h>
+	"r_opengl.h"
+	"../../i_video.h"
+
+1309891776 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\hardware\r_opengl\r_opengl.c
+	<windows.h>
+	<unistd.h>
+	<stdarg.h>
+	<math.h>
+	"../../d_netcmd.h"
+	"r_opengl.h"
+	"../../doomdef.h"
+
+1309891626 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\hu_stuff.c
+	"doomdef.h"
+	"byteptr.h"
+	"hu_stuff.h"
+	"m_menu.h"
+	"d_clisrv.h"
+	"g_game.h"
+	"g_input.h"
+	"i_video.h"
+	"i_system.h"
+	"dstrings.h"
+	"st_stuff.h"
+	"r_local.h"
+	"keys.h"
+	"v_video.h"
+	"w_wad.h"
+	"z_zone.h"
+	"console.h"
+	"am_map.h"
+	"d_main.h"
+	"p_tick.h"
+	"hardware/hw_main.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\i_tcp.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/time.h>
+	"doomdef.h"
+	<winsock.h>
+	<wsipx.h>
+	<lwip/inet.h>
+	<arpa/inet.h>
+	<lwip/sockets.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<kos/net.h>
+	<lwip/lwip.h>
+	<netdb.h>
+	<sys/ioctl.h>
+	<errno.h>
+	<time.h>
+	"sdl/SRB2DC/dchelp.h"
+	<sys/time.h>
+	<netipx/ipx.h>
+	<netipx/ipx.h>
+	<wsipx.h>
+	<linux/ipx.h>
+	<tcp.h>
+	<lsck/lsck.h>
+	<netinet/in.h>
+	"i_system.h"
+	"i_net.h"
+	"d_net.h"
+	"i_tcp.h"
+	"m_argv.h"
+	"doomstat.h"
+	"sdl/SRB2CE/cehelp.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\sdl\srb2dc\dchelp.h
+
+1309230794 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\info.c
+	"doomdef.h"
+	"doomstat.h"
+	"sounds.h"
+	"s_sound.h"
+	"p_mobj.h"
+	"m_misc.h"
+	"z_zone.h"
+	"d_player.h"
+	"hardware/hw_light.h"
+	"w_wad.h"
+	"byteptr.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\lzf.c
+	"lzf.h"
+	<limits.h>
+	<cstring>
+	<string.h>
+	<errno.h>
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\lzf.h
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\m_argv.c
+	<string.h>
+	"doomdef.h"
+	"command.h"
+	"m_argv.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\m_bbox.c
+	"doomtype.h"
+	"m_bbox.h"
+
+1308877522 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\m_cheat.c
+	"doomdef.h"
+	"dstrings.h"
+	"g_game.h"
+	"s_sound.h"
+	"p_local.h"
+	"m_cheat.h"
+	"m_menu.h"
+	"m_random.h"
+	"hu_stuff.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\m_fixed.c
+	"doomdef.h"
+	"m_fixed.h"
+
+1309890890 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\m_menu.c
+	<unistd.h>
+	"am_map.h"
+	"doomdef.h"
+	"dstrings.h"
+	"d_main.h"
+	"d_netcmd.h"
+	"console.h"
+	"r_local.h"
+	"hu_stuff.h"
+	"g_game.h"
+	"g_input.h"
+	"m_argv.h"
+	"sounds.h"
+	"s_sound.h"
+	"i_system.h"
+	"m_menu.h"
+	"v_video.h"
+	"i_video.h"
+	"keys.h"
+	"z_zone.h"
+	"w_wad.h"
+	"p_local.h"
+	"f_finale.h"
+	"hardware/hw_main.h"
+	"d_net.h"
+	"mserv.h"
+	"m_misc.h"
+	"byteptr.h"
+	"st_stuff.h"
+	"i_sound.h"
+	<stdio.h>
+
+1309893432 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\m_misc.c
+	<unistd.h>
+	<ctype.h>
+	"png.h"
+	"doomdef.h"
+	"g_game.h"
+	"m_misc.h"
+	"hu_stuff.h"
+	"v_video.h"
+	"z_zone.h"
+	"g_input.h"
+	"i_video.h"
+	"d_main.h"
+	"m_argv.h"
+	"i_system.h"
+	"sdl/SRB2CE/cehelp.h"
+	"sdl/SRB2XBOX/xboxhelp.h"
+	"hardware/hw_main.h"
+	"sdl/hwsym_sdl.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\sdl\hwsym_sdl.h
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\m_queue.c
+	<stdlib.h>
+	"z_zone.h"
+	"m_queue.h"
+	"m_misc.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\m_queue.h
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\m_random.c
+	"doomdef.h"
+	"doomtype.h"
+	"m_random.h"
+
+1308704762 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\m_vector.c
+	"doomdef.h"
+	"m_vector.h"
+	"r_main.h"
+	"m_fixed.h"
+	"m_misc.h"
+	"z_zone.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\md5.c
+	<config.h>
+	<string.h>
+	<sys/types.h>
+	<stdlib.h>
+	"md5.h"
+	<endian.h>
+
+1309298228 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\mserv.c
+	<unistd.h>
+	<stdlib.h>
+	<errno.h>
+	<time.h>
+	<winsock.h>
+	<sys/types.h>
+	<lwip/inet.h>
+	<kos/net.h>
+	<lwip/lwip.h>
+	<arpa/inet.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<netdb.h>
+	<sys/ioctl.h>
+	"sdl/SRB2DC/dchelp.h"
+	<sys/time.h>
+	<errno.h>
+	<errno.h>
+	"doomstat.h"
+	"doomdef.h"
+	"command.h"
+	"i_net.h"
+	"console.h"
+	"mserv.h"
+	"d_net.h"
+	"i_tcp.h"
+	"i_system.h"
+	"byteptr.h"
+	"m_menu.h"
+	"m_argv.h"
+	"m_misc.h"
+	"sdl/SRB2CE/cehelp.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\p_ceilng.c
+	"doomdef.h"
+	"p_local.h"
+	"r_main.h"
+	"s_sound.h"
+	"z_zone.h"
+	"d_netcmd.h"
+
+1309891626 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\p_enemy.c
+	"doomdef.h"
+	"g_game.h"
+	"p_local.h"
+	"r_main.h"
+	"r_state.h"
+	"s_sound.h"
+	"m_random.h"
+	"m_misc.h"
+	"r_things.h"
+	"dstrings.h"
+	"hardware/hw3sound.h"
+	"p_slopes.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\p_fab.c
+	"doomdef.h"
+	"g_game.h"
+	"p_local.h"
+	"m_random.h"
+	"r_things.h"
+
+1308877522 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\p_floor.c
+	"doomdef.h"
+	"doomstat.h"
+	"p_local.h"
+	"r_state.h"
+	"s_sound.h"
+	"z_zone.h"
+	"g_game.h"
+	"r_main.h"
+	"m_random.h"
+	"p_slopes.h"
+
+1309891724 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\p_inter.c
+	"doomdef.h"
+	"i_system.h"
+	"am_map.h"
+	"dstrings.h"
+	"g_game.h"
+	"m_random.h"
+	"p_local.h"
+	"s_sound.h"
+	"r_main.h"
+	"st_stuff.h"
+	"hu_stuff.h"
+	"hardware/hw_md2.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\p_lights.c
+	"doomdef.h"
+	"p_local.h"
+	"r_state.h"
+	"z_zone.h"
+	"m_random.h"
+	"d_netcmd.h"
+
+1309468616 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\p_map.c
+	"doomdef.h"
+	"g_game.h"
+	"m_bbox.h"
+	"m_random.h"
+	"p_local.h"
+	"r_state.h"
+	"r_main.h"
+	"r_sky.h"
+	"s_sound.h"
+	"w_wad.h"
+	"r_splats.h"
+	"p_slopes.h"
+	"z_zone.h"
+	"p_bots.h"
+
+1309876262 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\p_maputl.c
+	"p_local.h"
+	"r_main.h"
+	"p_maputl.h"
+	"p_polyobj.h"
+	"z_zone.h"
+	"p_slopes.h"
+
+1309891626 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\p_mobj.c
+	"doomdef.h"
+	"g_game.h"
+	"g_input.h"
+	"st_stuff.h"
+	"hu_stuff.h"
+	"p_local.h"
+	"p_setup.h"
+	"r_main.h"
+	"r_things.h"
+	"r_sky.h"
+	"r_splats.h"
+	"s_sound.h"
+	"z_zone.h"
+	"m_random.h"
+	"m_misc.h"
+	"info.h"
+	"i_video.h"
+	"dstrings.h"
+	"f_finale.h"
+	"v_video.h"
+	"hardware/hw_main.h"
+	"p_slopes.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\p_polyobj.c
+	"z_zone.h"
+	"doomstat.h"
+	"g_game.h"
+	"m_bbox.h"
+	"m_queue.h"
+	"p_maputl.h"
+	"p_setup.h"
+	"p_tick.h"
+	"p_local.h"
+	"p_polyobj.h"
+	"r_main.h"
+	"r_state.h"
+	"r_defs.h"
+
+1309361930 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\p_saveg.c
+	"doomdef.h"
+	"byteptr.h"
+	"d_main.h"
+	"doomstat.h"
+	"g_game.h"
+	"m_random.h"
+	"m_misc.h"
+	"p_local.h"
+	"p_setup.h"
+	"p_saveg.h"
+	"r_things.h"
+	"r_state.h"
+	"w_wad.h"
+	"y_inter.h"
+	"z_zone.h"
+	"r_main.h"
+	"r_sky.h"
+	"p_polyobj.h"
+	"p_bots.h"
+
+1309883432 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\p_setup.c
+	"doomdef.h"
+	"d_main.h"
+	<malloc.h>
+	<math.h>
+	"byteptr.h"
+	"g_game.h"
+	"p_local.h"
+	"p_setup.h"
+	"p_spec.h"
+	"p_saveg.h"
+	"i_sound.h"
+	"i_video.h"
+	"r_sky.h"
+	"i_system.h"
+	"r_data.h"
+	"r_things.h"
+	"r_sky.h"
+	"s_sound.h"
+	"st_stuff.h"
+	"w_wad.h"
+	"z_zone.h"
+	"r_splats.h"
+	"hu_stuff.h"
+	"console.h"
+	"m_misc.h"
+	"m_fixed.h"
+	"m_random.h"
+	"m_menu.h"
+	"f_finale.h"
+	"st_stuff.h"
+	"dehacked.h"
+	"r_main.h"
+	"md5.h"
+	"m_argv.h"
+	"dstrings.h"
+	"v_video.h"
+	"p_polyobj.h"
+	"hardware/hw_main.h"
+	"hardware/hw_light.h"
+	"p_slopes.h"
+	"p_bots.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\p_sight.c
+	"doomdef.h"
+	"doomstat.h"
+	"p_local.h"
+	"r_main.h"
+	"r_state.h"
+
+1309891228 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\p_spec.c
+	"doomdef.h"
+	"g_game.h"
+	"p_local.h"
+	"p_setup.h"
+	"r_data.h"
+	"m_random.h"
+	"p_mobj.h"
+	"i_system.h"
+	"s_sound.h"
+	"w_wad.h"
+	"z_zone.h"
+	"dstrings.h"
+	"r_main.h"
+	"r_sky.h"
+	"p_polyobj.h"
+	"hu_stuff.h"
+	"p_slopes.h"
+	"hardware/hw3sound.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\p_telept.c
+	"doomdef.h"
+	"g_game.h"
+	"p_local.h"
+	"r_state.h"
+	"s_sound.h"
+	"r_main.h"
+
+1309891014 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\p_tick.c
+	"doomstat.h"
+	"g_game.h"
+	"p_local.h"
+	"z_zone.h"
+	"s_sound.h"
+	"st_stuff.h"
+	"p_polyobj.h"
+	"m_random.h"
+	"p_bots.h"
+
+1309891626 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\p_user.c
+	"doomdef.h"
+	"i_system.h"
+	"d_event.h"
+	"d_net.h"
+	"g_game.h"
+	"p_local.h"
+	"r_main.h"
+	"s_sound.h"
+	"r_things.h"
+	"d_think.h"
+	"r_sky.h"
+	"p_setup.h"
+	"m_random.h"
+	"m_misc.h"
+	"i_video.h"
+	"p_spec.h"
+	"r_splats.h"
+	"z_zone.h"
+	"w_wad.h"
+	"dstrings.h"
+	"hu_stuff.h"
+	"v_video.h"
+	"p_slopes.h"
+	"hardware/hw3sound.h"
+	"hardware/hw_light.h"
+	"hardware/hw_main.h"
+	"hardware/hw_md2.h"
+	"p_bots.h"
+	"i_net.h"
+	"doomstat.h"
+
+1308831554 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\r_bsp.c
+	"doomdef.h"
+	"g_game.h"
+	"r_local.h"
+	"r_state.h"
+	"r_splats.h"
+	"p_local.h"
+	"z_zone.h"
+
+1309893432 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\r_data.c
+	"doomdef.h"
+	"g_game.h"
+	"i_video.h"
+	"r_local.h"
+	"r_sky.h"
+	"p_local.h"
+	"m_misc.h"
+	"r_data.h"
+	"w_wad.h"
+	"z_zone.h"
+	"p_setup.h"
+	"v_video.h"
+	"png.h"
+	<malloc.h>
+
+1308773274 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\r_draw.c
+	"doomdef.h"
+	"doomstat.h"
+	"r_local.h"
+	"st_stuff.h"
+	"i_video.h"
+	"v_video.h"
+	"m_misc.h"
+	"w_wad.h"
+	"z_zone.h"
+	"console.h"
+	"hardware/hw_main.h"
+	"r_draw8.c"
+	"r_draw16.c"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\r_draw8.c
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\r_draw16.c
+
+1309891014 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\r_main.c
+	"doomdef.h"
+	"g_game.h"
+	"g_input.h"
+	"r_local.h"
+	"r_splats.h"
+	"r_sky.h"
+	"st_stuff.h"
+	"p_local.h"
+	"keys.h"
+	"i_video.h"
+	"m_menu.h"
+	"p_local.h"
+	"am_map.h"
+	"d_main.h"
+	"v_video.h"
+	"dstrings.h"
+	"hardware/hw_main.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\r_plane.c
+	"doomdef.h"
+	"console.h"
+	"g_game.h"
+	"r_data.h"
+	"r_local.h"
+	"r_state.h"
+	"r_splats.h"
+	"r_sky.h"
+	"v_video.h"
+	"w_wad.h"
+	"z_zone.h"
+	"p_tick.h"
+	"p_setup.h"
+	"m_vector.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\r_segs.c
+	"doomdef.h"
+	"r_local.h"
+	"r_sky.h"
+	"r_splats.h"
+	"w_wad.h"
+	"z_zone.h"
+	"d_netcmd.h"
+	"m_misc.h"
+	"p_local.h"
+	"console.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\r_sky.c
+	"doomdef.h"
+	"doomstat.h"
+	"r_sky.h"
+	"r_local.h"
+	"w_wad.h"
+	"z_zone.h"
+	"p_maputl.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\r_splats.c
+	"r_draw.h"
+	"r_main.h"
+	"r_plane.h"
+	"r_splats.h"
+	"w_wad.h"
+	"z_zone.h"
+	"d_netcmd.h"
+
+1309064826 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\r_things.c
+	"doomdef.h"
+	"console.h"
+	"g_game.h"
+	"r_local.h"
+	"sounds.h"
+	"st_stuff.h"
+	"w_wad.h"
+	"z_zone.h"
+	"m_misc.h"
+	"i_video.h"
+	"i_system.h"
+	"r_things.h"
+	"r_plane.h"
+	"p_tick.h"
+	"p_local.h"
+	"d_netfil.h"
+	"hardware/hw_md2.h"
+	<stdio.h>
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\s_sound.c
+	<sys/msg.h>
+	"doomdef.h"
+	"doomstat.h"
+	"command.h"
+	"g_game.h"
+	"m_argv.h"
+	"r_main.h"
+	"r_things.h"
+	"i_system.h"
+	"i_sound.h"
+	"s_sound.h"
+	"w_wad.h"
+	"z_zone.h"
+	"d_main.h"
+	"r_sky.h"
+	"p_local.h"
+	"hardware/hw3sound.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\screen.c
+	"doomdef.h"
+	"doomstat.h"
+	"screen.h"
+	"console.h"
+	"am_map.h"
+	"i_system.h"
+	"i_video.h"
+	"r_local.h"
+	"r_sky.h"
+	"m_argv.h"
+	"m_misc.h"
+	"v_video.h"
+	"st_stuff.h"
+	"hu_stuff.h"
+	"z_zone.h"
+	"d_main.h"
+	"d_clisrv.h"
+	"f_finale.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\sounds.c
+	"doomtype.h"
+	"i_sound.h"
+	"sounds.h"
+	"r_defs.h"
+	"r_things.h"
+	"z_zone.h"
+	"w_wad.h"
+
+1309891626 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\st_stuff.c
+	"doomdef.h"
+	"g_game.h"
+	"r_local.h"
+	"p_local.h"
+	"f_finale.h"
+	"st_stuff.h"
+	"i_video.h"
+	"v_video.h"
+	"z_zone.h"
+	"hu_stuff.h"
+	"s_sound.h"
+	"i_system.h"
+	"m_menu.h"
+	"g_input.h"
+	"hardware/hw_main.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\string.c
+	<stddef.h>
+	<string.h>
+	"doomdef.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\tables.c
+	"tables.h"
+	"doomdef.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\tmap.nas
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\tmap_mmx.nas
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\tmap_vc.nas
+
+1309064826 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\v_video.c
+	"doomdef.h"
+	"r_local.h"
+	"v_video.h"
+	"hu_stuff.h"
+	"r_draw.h"
+	"console.h"
+	"i_video.h"
+	"i_system.h"
+	"z_zone.h"
+	"m_misc.h"
+	"m_random.h"
+	"doomstat.h"
+	"p_local.h"
+	"g_game.h"
+	"hardware/hw_glob.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\vid_copy.s
+	"asm_defs.inc"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\asm_defs.inc
+
+1309271704 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\w_wad.c
+	<unistd.h>
+	<errno.h>
+	"lzf.h"
+	"doomdef.h"
+	"doomtype.h"
+	"w_wad.h"
+	"z_zone.h"
+	"i_video.h"
+	"d_netfil.h"
+	"dehacked.h"
+	"d_clisrv.h"
+	"r_defs.h"
+	"i_system.h"
+	"md5.h"
+	"r_data.h"
+	"hardware/hw_main.h"
+	"hardware/hw_glob.h"
+	<stdio.h>
+	"png.h"
+	"w_wad.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\win32\srb2win.rc
+	"resource.h"
+	"afxres.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\win32\resource.h
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\win32\afxres.h
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\win32\dx_error.c
+	<stdarg.h>
+	<windows.h>
+	<ddraw.h>
+	<dsound.h>
+	<mmsystem.h>
+	"dx_error.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\win32\dx_error.h
+	<windows.h>
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\win32\fabdxlib.c
+	"../doomdef.h"
+	<windows.h>
+	<windowsx.h>
+	"../i_system.h"
+	"dx_error.h"
+	"fabdxlib.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\win32\fabdxlib.h
+	<windows.h>
+	<ddraw.h>
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\win32\mid2strm.c
+	"../doomdef.h"
+	"../i_system.h"
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<windowsx.h>
+	<mmsystem.h>
+	"mid2strm.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\win32\mid2strm.h
+	<windows.h>
+	<windowsx.h>
+	<mmsystem.h>
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\win32\win_cd.c
+	"../doomdef.h"
+	"win_main.h"
+	<mmsystem.h>
+	"../command.h"
+	"../doomtype.h"
+	"../i_sound.h"
+	"../i_system.h"
+	"../s_sound.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\win32\win_dbg.c
+	<tchar.h>
+	"win_main.h"
+	"../doomdef.h"
+	"win_dbg.h"
+	"../m_argv.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\win32\win_dbg.h
+	<windows.h>
+	<excpt.h>
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\win32\win_dll.c
+	"../doomdef.h"
+	"../hardware/hw_drv.h"
+	"../hardware/hw3dsdrv.h"
+	"win_dll.h"
+	"win_main.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\win32\win_dll.h
+	<windows.h>
+
+1309230794 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\win32\win_main.c
+	"../doomdef.h"
+	<stdio.h>
+	<winsock.h>
+	"../doomstat.h"
+	"resource.h"
+	"../m_argv.h"
+	"../d_main.h"
+	"../i_system.h"
+	"../keys.h"
+	"../console.h"
+	"fabdxlib.h"
+	"win_main.h"
+	"win_dbg.h"
+	"../i_sound.h"
+	"../g_input.h"
+	"../screen.h"
+	<zmouse.h>
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\win32\win_net.c
+	"../doomdef.h"
+	"../m_argv.h"
+	"../i_net.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\win32\win_snd.c
+	"../doomdef.h"
+	"win_main.h"
+	<mmsystem.h>
+	<dsound.h>
+	"../command.h"
+	"../i_sound.h"
+	"../s_sound.h"
+	"../i_system.h"
+	"../m_argv.h"
+	"../w_wad.h"
+	"../z_zone.h"
+	"../doomstat.h"
+	"dx_error.h"
+	"mid2strm.h"
+	"../hardware/hw3dsdrv.h"
+	"../hardware/hw3sound.h"
+	"win_dll.h"
+	<FMOD/fmoddyn.h>
+	<FMOD/fmod_errors.h>
+	<fmoddyn.h>
+	<fmod_errors.h>
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\win32\win_sys.c
+	"../doomdef.h"
+	<stdlib.h>
+	<signal.h>
+	<stdio.h>
+	<string.h>
+	<fcntl.h>
+	<io.h>
+	<stdarg.h>
+	<direct.h>
+	<mmsystem.h>
+	"../m_misc.h"
+	"../i_video.h"
+	"../i_sound.h"
+	"../i_system.h"
+	"../d_net.h"
+	"../g_game.h"
+	"../d_main.h"
+	"../m_argv.h"
+	"../w_wad.h"
+	"../z_zone.h"
+	"../g_input.h"
+	"../keys.h"
+	"../screen.h"
+	<zmouse.h>
+	"win_main.h"
+	"win_dbg.h"
+	"../i_joy.h"
+	<dinput.h>
+	"fabdxlib.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\win32\win_vid.c
+	"../doomdef.h"
+	<stdlib.h>
+	<stdarg.h>
+	"../d_clisrv.h"
+	"../i_system.h"
+	"../m_argv.h"
+	"../v_video.h"
+	"../st_stuff.h"
+	"../i_video.h"
+	"../z_zone.h"
+	"fabdxlib.h"
+	"../doomstat.h"
+	"win_main.h"
+	"../command.h"
+	"../screen.h"
+	"win_dll.h"
+	"../hardware/hw_drv.h"
+	"../hardware/hw_main.h"
+
+1309891724 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\y_inter.c
+	"doomdef.h"
+	"doomstat.h"
+	"d_main.h"
+	"f_finale.h"
+	"g_game.h"
+	"hu_stuff.h"
+	"i_net.h"
+	"i_video.h"
+	"p_tick.h"
+	"r_defs.h"
+	"r_things.h"
+	"s_sound.h"
+	"st_stuff.h"
+	"v_video.h"
+	"w_wad.h"
+	"y_inter.h"
+	"z_zone.h"
+	"m_menu.h"
+	"m_misc.h"
+	"i_system.h"
+	"r_local.h"
+	"p_local.h"
+	"hardware/hw_main.h"
+	<stdio.h>
+
+1309271704 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\z_zone.c
+	"doomdef.h"
+	"doomstat.h"
+	"i_system.h"
+	"i_video.h"
+	"z_zone.h"
+	"m_misc.h"
+	"hardware/hw_main.h"
+
+1312574731 source:c:\documents and settings\kalaron\desktop\srb2cbv1.1src\src\p_slopes.c
+	"doomdef.h"
+	"r_defs.h"
+	"r_state.h"
+	"m_bbox.h"
+	"z_zone.h"
+	"p_spec.h"
+	"p_slopes.h"
+	"r_main.h"
+	"p_maputl.h"
+	"byteptr.h"
+	"p_setup.h"
+	"p_local.h"
+	"p_maputl.h"
+
+1308877522 source:c:\documents and settings\kalaron\desktop\fixed\src\am_map.c
+	"g_game.h"
+	"am_map.h"
+	"g_input.h"
+	"p_local.h"
+	"v_video.h"
+	"i_video.h"
+	"r_state.h"
+	"r_draw.h"
+	"hardware/hw_main.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\g_game.h
+	"doomdef.h"
+	"doomstat.h"
+	"d_event.h"
+
+1317427785 c:\documents and settings\kalaron\desktop\fixed\src\doomdef.h
+	"doomtype.h"
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<ctype.h>
+	<io.h>
+	"g_state.h"
+	"m_swap.h"
+
+1314550890 c:\documents and settings\kalaron\desktop\fixed\src\doomtype.h
+	<windows.h>
+	<arch/types.h>
+	<stdint.h>
+	<dos.h>
+	<sys\types.h>
+	<direct.h>
+	<malloc.h>
+	<malloc.h>
+	<stddef.h>
+	<limits.h>
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\g_state.h
+	"doomtype.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\m_swap.h
+
+1314741727 c:\documents and settings\kalaron\desktop\fixed\src\doomstat.h
+	"doomdata.h"
+	"d_player.h"
+	"d_clisrv.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\doomdata.h
+	"doomtype.h"
+	"doomdef.h"
+
+1314737677 c:\documents and settings\kalaron\desktop\fixed\src\d_player.h
+	"p_pspr.h"
+	"p_mobj.h"
+	"d_ticcmd.h"
+	"m_vector.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\p_pspr.h
+	"m_fixed.h"
+	"tables.h"
+	"info.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\m_fixed.h
+	"doomtype.h"
+	<math.h>
+	<stdlib.h>
+	"sdl/SRB2CE/cehelp.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\sdl\srb2ce\cehelp.h
+
+1308508494 c:\documents and settings\kalaron\desktop\fixed\src\tables.h
+	<math.h>
+	"m_fixed.h"
+
+1317427785 c:\documents and settings\kalaron\desktop\fixed\src\info.h
+	"d_think.h"
+	"sounds.h"
+	"w_wad.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\d_think.h
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\sounds.h
+
+1309279030 c:\documents and settings\kalaron\desktop\fixed\src\w_wad.h
+	"hardware/hw_data.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\hardware\hw_data.h
+	<windows.h>
+	<GL/glx.h>
+	"../doomdef.h"
+	"../screen.h"
+
+1314552387 c:\documents and settings\kalaron\desktop\fixed\src\screen.h
+	"command.h"
+	<windows.h>
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\command.h
+	<stdio.h>
+	"doomtype.h"
+	"dstrings.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\dstrings.h
+
+1314736322 c:\documents and settings\kalaron\desktop\fixed\src\p_mobj.h
+	"tables.h"
+	"m_fixed.h"
+	"d_think.h"
+	"doomdata.h"
+	"info.h"
+	"m_vector.h"
+
+1313266440 c:\documents and settings\kalaron\desktop\fixed\src\m_vector.h
+	"m_fixed.h"
+	"tables.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\d_ticcmd.h
+	"m_fixed.h"
+	"doomtype.h"
+
+1309891354 c:\documents and settings\kalaron\desktop\fixed\src\d_clisrv.h
+	"d_ticcmd.h"
+	"d_netcmd.h"
+	"tables.h"
+	"d_player.h"
+
+1308699650 c:\documents and settings\kalaron\desktop\fixed\src\d_netcmd.h
+	"command.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\d_event.h
+	"doomtype.h"
+	"g_state.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\am_map.h
+	"d_event.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\g_input.h
+	"d_event.h"
+	"keys.h"
+	"command.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\keys.h
+
+1317428217 c:\documents and settings\kalaron\desktop\fixed\src\p_local.h
+	"command.h"
+	"d_player.h"
+	"d_think.h"
+	"m_fixed.h"
+	"m_bbox.h"
+	"p_tick.h"
+	"r_defs.h"
+	"p_maputl.h"
+	"p_spec.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\m_bbox.h
+	"m_fixed.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\p_tick.h
+
+1317434433 c:\documents and settings\kalaron\desktop\fixed\src\r_defs.h
+	"m_fixed.h"
+	"d_think.h"
+	"p_mobj.h"
+	"screen.h"
+	"m_vector.h"
+	"p_polyobj.h"
+
+1313622759 c:\documents and settings\kalaron\desktop\fixed\src\p_polyobj.h
+	"m_dllist.h"
+	"p_mobj.h"
+	"r_defs.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\m_dllist.h
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\p_maputl.h
+	"doomtype.h"
+	"r_defs.h"
+	"m_fixed.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\p_spec.h
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\v_video.h
+	"doomdef.h"
+	"doomtype.h"
+	"r_defs.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\i_video.h
+	"doomtype.h"
+
+1317427931 c:\documents and settings\kalaron\desktop\fixed\src\r_state.h
+	"d_player.h"
+	"r_data.h"
+
+1317434432 c:\documents and settings\kalaron\desktop\fixed\src\r_data.h
+	"r_defs.h"
+	"r_state.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\r_draw.h
+	"r_defs.h"
+
+1317425085 c:\documents and settings\kalaron\desktop\fixed\src\hardware\hw_main.h
+	"hw_data.h"
+	"hw_defs.h"
+	"../am_map.h"
+	"../d_player.h"
+	"../r_defs.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\hardware\hw_defs.h
+	"../doomtype.h"
+
+1309064826 source:c:\documents and settings\kalaron\desktop\fixed\src\command.c
+	"doomdef.h"
+	"doomstat.h"
+	"command.h"
+	"console.h"
+	"z_zone.h"
+	"m_menu.h"
+	"m_misc.h"
+	"m_fixed.h"
+	"m_argv.h"
+	"byteptr.h"
+	"p_saveg.h"
+	"g_game.h"
+	"d_netcmd.h"
+	"hu_stuff.h"
+	"hardware/hw_main.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\console.h
+	"d_event.h"
+	"command.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\z_zone.h
+	<stdio.h>
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\m_menu.h
+	"d_event.h"
+	"command.h"
+
+1314843926 c:\documents and settings\kalaron\desktop\fixed\src\m_misc.h
+	"doomtype.h"
+	"w_wad.h"
+	"png.h"
+
+1250360956 c:\documents and settings\kalaron\desktop\fixed\tools\libpng-src\png.h
+	"zlib.h"
+	"pngconf.h"
+	<crtdbg.h>
+
+1248474564 c:\documents and settings\kalaron\desktop\fixed\tools\zlib\zlib.h
+	"zconf.h"
+
+1248474564 c:\documents and settings\kalaron\desktop\fixed\tools\zlib\zconf.h
+	<windows.h>
+	<sys/types.h>
+	<unistd.h>
+	<unixio.h>
+	<sys/types.h>
+
+1250360956 c:\documents and settings\kalaron\desktop\fixed\tools\libpng-src\pngconf.h
+	"pngusr.h"
+	"config.h"
+	<windows.h>
+	<stdio.h>
+	<stdio.h>
+	<sys/types.h>
+	<setjmp.h>
+	<strings.h>
+	<string.h>
+	<stdlib.h>
+	<fp.h>
+	<math.h>
+	<m68881.h>
+	<mem.h>
+	<alloc.h>
+	<malloc.h>
+	<time.h>
+	<dos.h>
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\m_argv.h
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\byteptr.h
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\p_saveg.h
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\hu_stuff.h
+	"d_event.h"
+	"w_wad.h"
+	"r_defs.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\comptime.c
+
+1314552387 source:c:\documents and settings\kalaron\desktop\fixed\src\console.c
+	<unistd.h>
+	<openxdk/debug.h>
+	"doomdef.h"
+	"console.h"
+	"g_game.h"
+	"g_input.h"
+	"hu_stuff.h"
+	"keys.h"
+	"r_defs.h"
+	"sounds.h"
+	"st_stuff.h"
+	"s_sound.h"
+	"v_video.h"
+	"i_video.h"
+	"z_zone.h"
+	"i_system.h"
+	"d_main.h"
+	"m_menu.h"
+	"win32/win_main.h"
+	"hardware/hw_main.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\st_stuff.h
+	"doomtype.h"
+	"d_event.h"
+	"d_player.h"
+	"r_defs.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\s_sound.h
+	"sounds.h"
+	"m_fixed.h"
+
+1314550026 c:\documents and settings\kalaron\desktop\fixed\src\i_system.h
+	"d_ticcmd.h"
+	"d_event.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\d_main.h
+	"d_event.h"
+	"w_wad.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\win32\win_main.h
+	<windows.h>
+	<stdio.h>
+
+1317427785 source:c:\documents and settings\kalaron\desktop\fixed\src\d_clisrv.c
+	<time.h>
+	<unistd.h>
+	"i_net.h"
+	"i_system.h"
+	"i_video.h"
+	"d_net.h"
+	"d_main.h"
+	"dstrings.h"
+	"g_game.h"
+	"hu_stuff.h"
+	"keys.h"
+	"m_menu.h"
+	"console.h"
+	"d_netfil.h"
+	"byteptr.h"
+	"p_saveg.h"
+	"z_zone.h"
+	"p_local.h"
+	"m_misc.h"
+	"am_map.h"
+	"m_random.h"
+	"mserv.h"
+	"y_inter.h"
+	"r_local.h"
+	"m_argv.h"
+	"p_setup.h"
+	"p_bots.h"
+	"sdl/SRB2XBOX/xboxhelp.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\i_net.h
+	"doomdef.h"
+	"command.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\d_net.h
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\d_netfil.h
+	"w_wad.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\m_random.h
+	"doomtype.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\mserv.h
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\y_inter.h
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\r_local.h
+	"doomdef.h"
+	"tables.h"
+	"screen.h"
+	"m_bbox.h"
+	"r_main.h"
+	"r_bsp.h"
+	"r_segs.h"
+	"r_plane.h"
+	"r_sky.h"
+	"r_data.h"
+	"r_things.h"
+	"r_draw.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\r_main.h
+	"d_player.h"
+	"r_data.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\r_bsp.h
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\r_segs.h
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\r_plane.h
+	"screen.h"
+	"r_data.h"
+	"p_polyobj.h"
+	"p_slopes.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\p_slopes.h
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\r_sky.h
+	"m_fixed.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\r_things.h
+	"sounds.h"
+	"r_plane.h"
+
+1315083112 c:\documents and settings\kalaron\desktop\fixed\src\p_setup.h
+	"doomdata.h"
+	"r_defs.h"
+
+1309285506 c:\documents and settings\kalaron\desktop\fixed\src\p_bots.h
+	"r_defs.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\sdl\srb2xbox\xboxhelp.h
+
+1317430547 source:c:\documents and settings\kalaron\desktop\fixed\src\d_main.c
+	<sys/stat.h>
+	<sys/types.h>
+	<unistd.h>
+	<direct.h>
+	<malloc.h>
+	<time.h>
+	"doomdef.h"
+	"am_map.h"
+	"console.h"
+	"d_net.h"
+	"dstrings.h"
+	"f_finale.h"
+	"g_game.h"
+	"hu_stuff.h"
+	"i_sound.h"
+	"i_system.h"
+	"i_video.h"
+	"m_argv.h"
+	"m_menu.h"
+	"m_misc.h"
+	"p_setup.h"
+	"p_saveg.h"
+	"r_main.h"
+	"r_local.h"
+	"s_sound.h"
+	"st_stuff.h"
+	"v_video.h"
+	"w_wad.h"
+	"z_zone.h"
+	"d_main.h"
+	"d_netfil.h"
+	"m_cheat.h"
+	"y_inter.h"
+	"p_local.h"
+	"mserv.h"
+	"hardware/hw_md2.h"
+	"sdl/SRB2XBOX/xboxhelp.h"
+	"hardware/hw_main.h"
+	"win32/win_main.h"
+	"hardware/hw3sound.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\f_finale.h
+	"doomtype.h"
+	"d_event.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\i_sound.h
+	"doomdef.h"
+	"sounds.h"
+	"command.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\m_cheat.h
+	"d_event.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\hardware\hw_md2.h
+	"hw_glob.h"
+	"../r_things.h"
+
+1317431477 c:\documents and settings\kalaron\desktop\fixed\src\hardware\hw_glob.h
+	"hw_defs.h"
+	"hw_main.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\hardware\hw3sound.h
+	"hws_data.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\hardware\hws_data.h
+
+1309891724 source:c:\documents and settings\kalaron\desktop\fixed\src\d_net.c
+	"doomdef.h"
+	"dstrings.h"
+	"g_game.h"
+	"i_net.h"
+	"i_system.h"
+	"m_argv.h"
+	"d_net.h"
+	"w_wad.h"
+	"d_netfil.h"
+	"d_clisrv.h"
+	"z_zone.h"
+	"i_tcp.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\i_tcp.h
+
+1317428217 source:c:\documents and settings\kalaron\desktop\fixed\src\d_netcmd.c
+	"doomdef.h"
+	"console.h"
+	"command.h"
+	"i_system.h"
+	"dstrings.h"
+	"g_game.h"
+	"hu_stuff.h"
+	"g_input.h"
+	"m_menu.h"
+	"r_local.h"
+	"r_things.h"
+	"p_local.h"
+	"p_setup.h"
+	"s_sound.h"
+	"m_misc.h"
+	"am_map.h"
+	"byteptr.h"
+	"d_netfil.h"
+	"p_spec.h"
+	"m_cheat.h"
+	"d_clisrv.h"
+	"v_video.h"
+	"d_main.h"
+	"m_random.h"
+	"f_finale.h"
+	"mserv.h"
+	"md5.h"
+	"z_zone.h"
+	"i_net.h"
+	"d_net.h"
+	"p_bots.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\md5.h
+	<stdio.h>
+	<limits.h>
+	<sys/types.h>
+
+1314550026 source:c:\documents and settings\kalaron\desktop\fixed\src\d_netfil.c
+	<stdio.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<time.h>
+	<io.h>
+	<direct.h>
+	<sys/types.h>
+	<dirent.h>
+	<utime.h>
+	<unistd.h>
+	<sys/utime.h>
+	<dir.h>
+	<utime.h>
+	"doomdef.h"
+	"doomstat.h"
+	"d_main.h"
+	"dstrings.h"
+	"g_game.h"
+	"i_net.h"
+	"i_system.h"
+	"m_argv.h"
+	"d_net.h"
+	"w_wad.h"
+	"d_netfil.h"
+	"z_zone.h"
+	"byteptr.h"
+	"p_setup.h"
+	"m_misc.h"
+	"m_menu.h"
+	"md5.h"
+	"filesrch.h"
+	"v_video.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\filesrch.h
+	"doomdef.h"
+	"d_netfil.h"
+
+1314742459 source:c:\documents and settings\kalaron\desktop\fixed\src\dehacked.c
+	"doomdef.h"
+	"g_game.h"
+	"sounds.h"
+	"info.h"
+	"d_think.h"
+	"dstrings.h"
+	"m_argv.h"
+	"z_zone.h"
+	"w_wad.h"
+	"m_menu.h"
+	"m_misc.h"
+	"f_finale.h"
+	"dehacked.h"
+	"st_stuff.h"
+	"i_system.h"
+	"hardware/hw_light.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\dehacked.h
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\hardware\hw_light.h
+	"hw_glob.h"
+	"hw_defs.h"
+
+1317427785 source:c:\documents and settings\kalaron\desktop\fixed\src\dstrings.c
+	"doomdef.h"
+	"dstrings.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\f_finale.c
+	"doomdef.h"
+	"doomstat.h"
+	"am_map.h"
+	"dstrings.h"
+	"d_main.h"
+	"f_finale.h"
+	"g_game.h"
+	"hu_stuff.h"
+	"r_local.h"
+	"s_sound.h"
+	"i_video.h"
+	"v_video.h"
+	"w_wad.h"
+	"z_zone.h"
+	"i_system.h"
+	"m_menu.h"
+	"dehacked.h"
+	"g_input.h"
+	"console.h"
+	"m_random.h"
+	"y_inter.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\f_wipe.c
+	"i_video.h"
+	"v_video.h"
+	"r_draw.h"
+	"p_pspr.h"
+	"i_system.h"
+	"m_menu.h"
+	"f_finale.h"
+	"r_main.h"
+	"hardware/hw_main.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\filesrch.c
+	<stdio.h>
+	<dirent.h>
+	<windows.h>
+	"sdl/SRB2CE/cehelp.h"
+	<sys/stat.h>
+	<string.h>
+	"filesrch.h"
+	"d_netfil.h"
+	"m_misc.h"
+	<errno.h>
+	<io.h>
+	<tchar.h>
+
+1314737677 source:c:\documents and settings\kalaron\desktop\fixed\src\g_game.c
+	"doomdef.h"
+	"console.h"
+	"dstrings.h"
+	"d_main.h"
+	"f_finale.h"
+	"p_setup.h"
+	"p_saveg.h"
+	"i_system.h"
+	"am_map.h"
+	"m_random.h"
+	"p_local.h"
+	"r_draw.h"
+	"r_main.h"
+	"s_sound.h"
+	"g_game.h"
+	"m_cheat.h"
+	"m_misc.h"
+	"m_menu.h"
+	"m_argv.h"
+	"hu_stuff.h"
+	"st_stuff.h"
+	"z_zone.h"
+	"i_video.h"
+	"byteptr.h"
+	"i_joy.h"
+	"r_local.h"
+	"r_things.h"
+	"y_inter.h"
+	"v_video.h"
+	"p_bots.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\i_joy.h
+	"g_input.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\g_input.c
+	"doomdef.h"
+	"doomstat.h"
+	"g_input.h"
+	"keys.h"
+	"hu_stuff.h"
+	"keys.h"
+	"d_net.h"
+	"console.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\hardware\hw3sound.c
+	"../doomdef.h"
+	"../i_sound.h"
+	"../s_sound.h"
+	"../w_wad.h"
+	"../z_zone.h"
+	"../g_game.h"
+	"../tables.h"
+	"../sounds.h"
+	"../r_main.h"
+	"../r_things.h"
+	"../m_random.h"
+	"../p_local.h"
+	"hw3dsdrv.h"
+	"hw3sound.h"
+	"hw_drv.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\hardware\hw3dsdrv.h
+	"hw_dll.h"
+	"hws_data.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\hardware\hw_dll.h
+
+1309880022 c:\documents and settings\kalaron\desktop\fixed\src\hardware\hw_drv.h
+	"../screen.h"
+	"hw_data.h"
+	"hw_defs.h"
+	"hw_md2.h"
+	"r_opengl/r_opengl.h"
+	"hw_dll.h"
+
+1315665254 c:\documents and settings\kalaron\desktop\fixed\src\hardware\r_opengl\r_opengl.h
+	<SDL/SDL_opengl.h>
+	<SDL_opengl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"../../doomdef.h"
+	"../hw_drv.h"
+
+1313622759 source:c:\documents and settings\kalaron\desktop\fixed\src\hardware\hw_bsp.c
+	"../doomdef.h"
+	"../doomstat.h"
+	"hw_glob.h"
+	"../r_local.h"
+	"../z_zone.h"
+	"../console.h"
+	"../v_video.h"
+	"../m_menu.h"
+	"../i_system.h"
+	"../m_argv.h"
+	"../i_video.h"
+	"../w_wad.h"
+
+1317436942 source:c:\documents and settings\kalaron\desktop\fixed\src\hardware\hw_cache.c
+	"../doomdef.h"
+	"hw_glob.h"
+	"hw_drv.h"
+	"../doomstat.h"
+	"../i_video.h"
+	"../r_data.h"
+	"../w_wad.h"
+	"../z_zone.h"
+	"../v_video.h"
+	"../r_draw.h"
+	"../m_misc.h"
+	"../p_setup.h"
+	"../w_wad.h"
+	"png.h"
+
+1308879118 source:c:\documents and settings\kalaron\desktop\fixed\src\hardware\hw_clip.c
+	<math.h>
+	"../v_video.h"
+	"hw_clip.h"
+	"hw_glob.h"
+	"../r_state.h"
+	"../tables.h"
+	"r_opengl/r_opengl.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\hardware\hw_clip.h
+	"../doomdef.h"
+	"../tables.h"
+	"../doomtype.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\hardware\hw_draw.c
+	<unistd.h>
+	"../doomdef.h"
+	"hw_glob.h"
+	"hw_drv.h"
+	"../r_draw.h"
+	"../m_misc.h"
+	"../r_main.h"
+	"../w_wad.h"
+	"../z_zone.h"
+	"../v_video.h"
+	"../st_stuff.h"
+	<sys/unistd.h>
+	<io.h>
+	<fcntl.h>
+	"../i_video.h"
+
+1308879118 source:c:\documents and settings\kalaron\desktop\fixed\src\hardware\hw_light.c
+	"../doomdef.h"
+	"hw_main.h"
+	"hw_light.h"
+	"hw_drv.h"
+	"../i_video.h"
+	"../z_zone.h"
+	"../m_random.h"
+	"../m_bbox.h"
+	"../w_wad.h"
+	"../r_state.h"
+	"../r_main.h"
+	"../p_local.h"
+
+1317438202 source:c:\documents and settings\kalaron\desktop\fixed\src\hardware\hw_main.c
+	<math.h>
+	"../doomstat.h"
+	"hw_glob.h"
+	"hw_light.h"
+	"hw_drv.h"
+	"../i_video.h"
+	"../v_video.h"
+	"../p_local.h"
+	"../p_setup.h"
+	"../r_local.h"
+	"../r_bsp.h"
+	"../d_clisrv.h"
+	"../w_wad.h"
+	"../z_zone.h"
+	"../r_splats.h"
+	"../g_game.h"
+	"../st_stuff.h"
+	"../i_system.h"
+	"../m_misc.h"
+	"r_opengl/r_opengl.h"
+	"hw_md2.h"
+	"../p_slopes.h"
+	"hw_clip.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\r_splats.h
+	"r_defs.h"
+
+1309230794 source:c:\documents and settings\kalaron\desktop\fixed\src\hardware\hw_md2.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"png.h"
+	"../doomdef.h"
+	"hw_drv.h"
+	"hw_light.h"
+	"hw_md2.h"
+	"../r_main.h"
+	"../r_things.h"
+	"../r_bsp.h"
+	"../m_misc.h"
+	"../w_wad.h"
+	"../z_zone.h"
+	"hw_main.h"
+	"../d_main.h"
+	"../doomstat.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\hardware\hw_trick.c
+
+1309064826 source:c:\documents and settings\kalaron\desktop\fixed\src\hardware\r_opengl\ogl_win.c
+	<windows.h>
+	<time.h>
+	"r_opengl.h"
+	"../../i_video.h"
+
+1317437364 source:c:\documents and settings\kalaron\desktop\fixed\src\hardware\r_opengl\r_opengl.c
+	<windows.h>
+	<unistd.h>
+	<stdarg.h>
+	<math.h>
+	"../../d_netcmd.h"
+	"r_opengl.h"
+	"../../doomdef.h"
+
+1309891626 source:c:\documents and settings\kalaron\desktop\fixed\src\hu_stuff.c
+	"doomdef.h"
+	"byteptr.h"
+	"hu_stuff.h"
+	"m_menu.h"
+	"d_clisrv.h"
+	"g_game.h"
+	"g_input.h"
+	"i_video.h"
+	"i_system.h"
+	"dstrings.h"
+	"st_stuff.h"
+	"r_local.h"
+	"keys.h"
+	"v_video.h"
+	"w_wad.h"
+	"z_zone.h"
+	"console.h"
+	"am_map.h"
+	"d_main.h"
+	"p_tick.h"
+	"hardware/hw_main.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\i_tcp.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/time.h>
+	"doomdef.h"
+	<winsock.h>
+	<wsipx.h>
+	<lwip/inet.h>
+	<arpa/inet.h>
+	<lwip/sockets.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<kos/net.h>
+	<lwip/lwip.h>
+	<netdb.h>
+	<sys/ioctl.h>
+	<errno.h>
+	<time.h>
+	"sdl/SRB2DC/dchelp.h"
+	<sys/time.h>
+	<netipx/ipx.h>
+	<netipx/ipx.h>
+	<wsipx.h>
+	<linux/ipx.h>
+	<tcp.h>
+	<lsck/lsck.h>
+	<netinet/in.h>
+	"i_system.h"
+	"i_net.h"
+	"d_net.h"
+	"i_tcp.h"
+	"m_argv.h"
+	"doomstat.h"
+	"sdl/SRB2CE/cehelp.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\sdl\srb2dc\dchelp.h
+
+1317429792 source:c:\documents and settings\kalaron\desktop\fixed\src\info.c
+	"doomdef.h"
+	"doomstat.h"
+	"sounds.h"
+	"s_sound.h"
+	"p_mobj.h"
+	"m_misc.h"
+	"z_zone.h"
+	"d_player.h"
+	"hardware/hw_light.h"
+	"w_wad.h"
+	"byteptr.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\lzf.c
+	"lzf.h"
+	<limits.h>
+	<cstring>
+	<string.h>
+	<errno.h>
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\lzf.h
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\m_argv.c
+	<string.h>
+	"doomdef.h"
+	"command.h"
+	"m_argv.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\m_bbox.c
+	"doomtype.h"
+	"m_bbox.h"
+
+1308877522 source:c:\documents and settings\kalaron\desktop\fixed\src\m_cheat.c
+	"doomdef.h"
+	"dstrings.h"
+	"g_game.h"
+	"s_sound.h"
+	"p_local.h"
+	"m_cheat.h"
+	"m_menu.h"
+	"m_random.h"
+	"hu_stuff.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\m_fixed.c
+	"doomdef.h"
+	"m_fixed.h"
+
+1317424770 source:c:\documents and settings\kalaron\desktop\fixed\src\m_menu.c
+	<unistd.h>
+	"am_map.h"
+	"doomdef.h"
+	"dstrings.h"
+	"d_main.h"
+	"d_netcmd.h"
+	"console.h"
+	"r_local.h"
+	"hu_stuff.h"
+	"g_game.h"
+	"g_input.h"
+	"m_argv.h"
+	"sounds.h"
+	"s_sound.h"
+	"i_system.h"
+	"m_menu.h"
+	"v_video.h"
+	"i_video.h"
+	"keys.h"
+	"z_zone.h"
+	"w_wad.h"
+	"p_local.h"
+	"f_finale.h"
+	"hardware/hw_main.h"
+	"d_net.h"
+	"mserv.h"
+	"m_misc.h"
+	"byteptr.h"
+	"st_stuff.h"
+	"i_sound.h"
+
+1317427785 source:c:\documents and settings\kalaron\desktop\fixed\src\m_misc.c
+	<unistd.h>
+	<ctype.h>
+	"png.h"
+	"doomdef.h"
+	"g_game.h"
+	"m_misc.h"
+	"hu_stuff.h"
+	"v_video.h"
+	"z_zone.h"
+	"g_input.h"
+	"i_video.h"
+	"d_main.h"
+	"m_argv.h"
+	"i_system.h"
+	"sdl/SRB2CE/cehelp.h"
+	"sdl/SRB2XBOX/xboxhelp.h"
+	"hardware/hw_main.h"
+	"sdl/hwsym_sdl.h"
+	<ctype.h>
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\sdl\hwsym_sdl.h
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\m_queue.c
+	<stdlib.h>
+	"z_zone.h"
+	"m_queue.h"
+	"m_misc.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\m_queue.h
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\m_random.c
+	"doomdef.h"
+	"doomtype.h"
+	"m_random.h"
+
+1314745048 source:c:\documents and settings\kalaron\desktop\fixed\src\m_vector.c
+	"doomdef.h"
+	"m_vector.h"
+	"r_main.h"
+	"m_fixed.h"
+	"m_misc.h"
+	"z_zone.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\md5.c
+	<config.h>
+	<string.h>
+	<sys/types.h>
+	<stdlib.h>
+	"md5.h"
+	<endian.h>
+
+1309298228 source:c:\documents and settings\kalaron\desktop\fixed\src\mserv.c
+	<unistd.h>
+	<stdlib.h>
+	<errno.h>
+	<time.h>
+	<winsock.h>
+	<sys/types.h>
+	<lwip/inet.h>
+	<kos/net.h>
+	<lwip/lwip.h>
+	<arpa/inet.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<netdb.h>
+	<sys/ioctl.h>
+	"sdl/SRB2DC/dchelp.h"
+	<sys/time.h>
+	<errno.h>
+	<errno.h>
+	"doomstat.h"
+	"doomdef.h"
+	"command.h"
+	"i_net.h"
+	"console.h"
+	"mserv.h"
+	"d_net.h"
+	"i_tcp.h"
+	"i_system.h"
+	"byteptr.h"
+	"m_menu.h"
+	"m_argv.h"
+	"m_misc.h"
+	"sdl/SRB2CE/cehelp.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\p_ceilng.c
+	"doomdef.h"
+	"p_local.h"
+	"r_main.h"
+	"s_sound.h"
+	"z_zone.h"
+	"d_netcmd.h"
+
+1317414998 source:c:\documents and settings\kalaron\desktop\fixed\src\p_enemy.c
+	"doomdef.h"
+	"g_game.h"
+	"p_local.h"
+	"r_main.h"
+	"r_state.h"
+	"s_sound.h"
+	"m_random.h"
+	"m_misc.h"
+	"r_things.h"
+	"dstrings.h"
+	"hardware/hw3sound.h"
+	"p_slopes.h"
+
+1317431646 source:c:\documents and settings\kalaron\desktop\fixed\src\p_fab.c
+	"doomdef.h"
+	"g_game.h"
+	"p_local.h"
+	"m_random.h"
+	"r_things.h"
+
+1308877522 source:c:\documents and settings\kalaron\desktop\fixed\src\p_floor.c
+	"doomdef.h"
+	"doomstat.h"
+	"p_local.h"
+	"r_state.h"
+	"s_sound.h"
+	"z_zone.h"
+	"g_game.h"
+	"r_main.h"
+	"m_random.h"
+	"p_slopes.h"
+
+1314741650 source:c:\documents and settings\kalaron\desktop\fixed\src\p_inter.c
+	"doomdef.h"
+	"i_system.h"
+	"am_map.h"
+	"dstrings.h"
+	"g_game.h"
+	"m_random.h"
+	"p_local.h"
+	"s_sound.h"
+	"r_main.h"
+	"st_stuff.h"
+	"hu_stuff.h"
+	"hardware/hw_md2.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\p_lights.c
+	"doomdef.h"
+	"p_local.h"
+	"r_state.h"
+	"z_zone.h"
+	"m_random.h"
+	"d_netcmd.h"
+
+1313622759 source:c:\documents and settings\kalaron\desktop\fixed\src\p_map.c
+	"doomdef.h"
+	"g_game.h"
+	"m_bbox.h"
+	"m_random.h"
+	"p_local.h"
+	"r_state.h"
+	"r_main.h"
+	"r_sky.h"
+	"s_sound.h"
+	"w_wad.h"
+	"r_splats.h"
+	"p_slopes.h"
+	"z_zone.h"
+	"p_bots.h"
+
+1313622759 source:c:\documents and settings\kalaron\desktop\fixed\src\p_maputl.c
+	"p_local.h"
+	"r_main.h"
+	"p_maputl.h"
+	"p_polyobj.h"
+	"z_zone.h"
+	"p_slopes.h"
+
+1317421650 source:c:\documents and settings\kalaron\desktop\fixed\src\p_mobj.c
+	"doomdef.h"
+	"g_game.h"
+	"g_input.h"
+	"st_stuff.h"
+	"hu_stuff.h"
+	"p_local.h"
+	"p_setup.h"
+	"r_main.h"
+	"r_things.h"
+	"r_sky.h"
+	"r_splats.h"
+	"s_sound.h"
+	"z_zone.h"
+	"m_random.h"
+	"m_misc.h"
+	"info.h"
+	"i_video.h"
+	"dstrings.h"
+	"f_finale.h"
+	"v_video.h"
+	"hardware/hw_main.h"
+	"p_slopes.h"
+
+1313622759 source:c:\documents and settings\kalaron\desktop\fixed\src\p_polyobj.c
+	"z_zone.h"
+	"doomstat.h"
+	"g_game.h"
+	"m_bbox.h"
+	"m_queue.h"
+	"p_maputl.h"
+	"p_setup.h"
+	"p_tick.h"
+	"p_local.h"
+	"p_polyobj.h"
+	"r_main.h"
+	"r_state.h"
+	"r_defs.h"
+
+1314737677 source:c:\documents and settings\kalaron\desktop\fixed\src\p_saveg.c
+	"doomdef.h"
+	"byteptr.h"
+	"d_main.h"
+	"doomstat.h"
+	"g_game.h"
+	"m_random.h"
+	"m_misc.h"
+	"p_local.h"
+	"p_setup.h"
+	"p_saveg.h"
+	"r_things.h"
+	"r_state.h"
+	"w_wad.h"
+	"y_inter.h"
+	"z_zone.h"
+	"r_main.h"
+	"r_sky.h"
+	"p_polyobj.h"
+	"p_bots.h"
+
+1317430232 source:c:\documents and settings\kalaron\desktop\fixed\src\p_setup.c
+	"doomdef.h"
+	"d_main.h"
+	<malloc.h>
+	<math.h>
+	"byteptr.h"
+	"g_game.h"
+	"p_local.h"
+	"p_setup.h"
+	"p_spec.h"
+	"p_saveg.h"
+	"i_sound.h"
+	"i_video.h"
+	"r_sky.h"
+	"i_system.h"
+	"r_data.h"
+	"r_things.h"
+	"r_sky.h"
+	"s_sound.h"
+	"st_stuff.h"
+	"w_wad.h"
+	"z_zone.h"
+	"r_splats.h"
+	"hu_stuff.h"
+	"console.h"
+	"m_misc.h"
+	"m_fixed.h"
+	"m_random.h"
+	"m_menu.h"
+	"f_finale.h"
+	"st_stuff.h"
+	"dehacked.h"
+	"r_main.h"
+	"md5.h"
+	"m_argv.h"
+	"dstrings.h"
+	"v_video.h"
+	"p_polyobj.h"
+	"hardware/hw_main.h"
+	"hardware/hw_light.h"
+	"p_slopes.h"
+	"p_bots.h"
+
+1313255207 source:c:\documents and settings\kalaron\desktop\fixed\src\p_sight.c
+	"doomdef.h"
+	"doomstat.h"
+	"p_local.h"
+	"r_main.h"
+	"r_state.h"
+
+1312574731 source:c:\documents and settings\kalaron\desktop\fixed\src\p_slopes.c
+	"doomdef.h"
+	"r_defs.h"
+	"r_state.h"
+	"m_bbox.h"
+	"z_zone.h"
+	"p_spec.h"
+	"p_slopes.h"
+	"r_main.h"
+	"p_maputl.h"
+	"byteptr.h"
+	"p_setup.h"
+	"p_local.h"
+	"p_maputl.h"
+
+1317429937 source:c:\documents and settings\kalaron\desktop\fixed\src\p_spec.c
+	"doomdef.h"
+	"g_game.h"
+	"p_local.h"
+	"p_setup.h"
+	"r_data.h"
+	"m_random.h"
+	"p_mobj.h"
+	"i_system.h"
+	"s_sound.h"
+	"w_wad.h"
+	"z_zone.h"
+	"dstrings.h"
+	"r_main.h"
+	"r_sky.h"
+	"p_polyobj.h"
+	"hu_stuff.h"
+	"p_slopes.h"
+	"hardware/hw3sound.h"
+
+1314739542 source:c:\documents and settings\kalaron\desktop\fixed\src\p_telept.c
+	"doomdef.h"
+	"g_game.h"
+	"p_local.h"
+	"r_state.h"
+	"s_sound.h"
+	"r_main.h"
+
+1309891014 source:c:\documents and settings\kalaron\desktop\fixed\src\p_tick.c
+	"doomstat.h"
+	"g_game.h"
+	"p_local.h"
+	"z_zone.h"
+	"s_sound.h"
+	"st_stuff.h"
+	"p_polyobj.h"
+	"m_random.h"
+	"p_bots.h"
+
+1317429214 source:c:\documents and settings\kalaron\desktop\fixed\src\p_user.c
+	"doomdef.h"
+	"i_system.h"
+	"d_event.h"
+	"d_net.h"
+	"g_game.h"
+	"p_local.h"
+	"r_main.h"
+	"s_sound.h"
+	"r_things.h"
+	"d_think.h"
+	"r_sky.h"
+	"p_setup.h"
+	"m_random.h"
+	"m_misc.h"
+	"i_video.h"
+	"p_spec.h"
+	"r_splats.h"
+	"z_zone.h"
+	"w_wad.h"
+	"dstrings.h"
+	"hu_stuff.h"
+	"v_video.h"
+	"p_slopes.h"
+	"hardware/hw3sound.h"
+	"hardware/hw_light.h"
+	"hardware/hw_main.h"
+	"hardware/hw_md2.h"
+	"p_bots.h"
+	"i_net.h"
+	"doomstat.h"
+
+1308831554 source:c:\documents and settings\kalaron\desktop\fixed\src\r_bsp.c
+	"doomdef.h"
+	"g_game.h"
+	"r_local.h"
+	"r_state.h"
+	"r_splats.h"
+	"p_local.h"
+	"z_zone.h"
+
+1317434432 source:c:\documents and settings\kalaron\desktop\fixed\src\r_data.c
+	"doomdef.h"
+	"g_game.h"
+	"i_video.h"
+	"r_local.h"
+	"r_sky.h"
+	"p_local.h"
+	"m_misc.h"
+	"r_data.h"
+	"w_wad.h"
+	"z_zone.h"
+	"p_setup.h"
+	"v_video.h"
+	"png.h"
+	<malloc.h>
+	"z_zone.h"
+
+1308773274 source:c:\documents and settings\kalaron\desktop\fixed\src\r_draw.c
+	"doomdef.h"
+	"doomstat.h"
+	"r_local.h"
+	"st_stuff.h"
+	"i_video.h"
+	"v_video.h"
+	"m_misc.h"
+	"w_wad.h"
+	"z_zone.h"
+	"console.h"
+	"hardware/hw_main.h"
+	"r_draw8.c"
+	"r_draw16.c"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\r_draw8.c
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\r_draw16.c
+
+1317425085 source:c:\documents and settings\kalaron\desktop\fixed\src\r_main.c
+	"doomdef.h"
+	"g_game.h"
+	"g_input.h"
+	"r_local.h"
+	"r_splats.h"
+	"r_sky.h"
+	"st_stuff.h"
+	"p_local.h"
+	"keys.h"
+	"i_video.h"
+	"m_menu.h"
+	"p_local.h"
+	"am_map.h"
+	"d_main.h"
+	"v_video.h"
+	"dstrings.h"
+	"hardware/hw_main.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\r_plane.c
+	"doomdef.h"
+	"console.h"
+	"g_game.h"
+	"r_data.h"
+	"r_local.h"
+	"r_state.h"
+	"r_splats.h"
+	"r_sky.h"
+	"v_video.h"
+	"w_wad.h"
+	"z_zone.h"
+	"p_tick.h"
+	"p_setup.h"
+	"m_vector.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\r_segs.c
+	"doomdef.h"
+	"r_local.h"
+	"r_sky.h"
+	"r_splats.h"
+	"w_wad.h"
+	"z_zone.h"
+	"d_netcmd.h"
+	"m_misc.h"
+	"p_local.h"
+	"console.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\r_sky.c
+	"doomdef.h"
+	"doomstat.h"
+	"r_sky.h"
+	"r_local.h"
+	"w_wad.h"
+	"z_zone.h"
+	"p_maputl.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\r_splats.c
+	"r_draw.h"
+	"r_main.h"
+	"r_plane.h"
+	"r_splats.h"
+	"w_wad.h"
+	"z_zone.h"
+	"d_netcmd.h"
+
+1317418563 source:c:\documents and settings\kalaron\desktop\fixed\src\r_things.c
+	"doomdef.h"
+	"console.h"
+	"g_game.h"
+	"r_local.h"
+	"sounds.h"
+	"st_stuff.h"
+	"w_wad.h"
+	"z_zone.h"
+	"m_misc.h"
+	"i_video.h"
+	"i_system.h"
+	"r_things.h"
+	"r_plane.h"
+	"p_tick.h"
+	"p_local.h"
+	"d_netfil.h"
+	"hardware/hw_md2.h"
+
+1314548652 source:c:\documents and settings\kalaron\desktop\fixed\src\s_sound.c
+	<sys/msg.h>
+	"doomdef.h"
+	"doomstat.h"
+	"command.h"
+	"g_game.h"
+	"m_argv.h"
+	"r_main.h"
+	"r_things.h"
+	"i_system.h"
+	"i_sound.h"
+	"s_sound.h"
+	"w_wad.h"
+	"z_zone.h"
+	"d_main.h"
+	"r_sky.h"
+	"p_local.h"
+	"hardware/hw3sound.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\screen.c
+	"doomdef.h"
+	"doomstat.h"
+	"screen.h"
+	"console.h"
+	"am_map.h"
+	"i_system.h"
+	"i_video.h"
+	"r_local.h"
+	"r_sky.h"
+	"m_argv.h"
+	"m_misc.h"
+	"v_video.h"
+	"st_stuff.h"
+	"hu_stuff.h"
+	"z_zone.h"
+	"d_main.h"
+	"d_clisrv.h"
+	"f_finale.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\sounds.c
+	"doomtype.h"
+	"i_sound.h"
+	"sounds.h"
+	"r_defs.h"
+	"r_things.h"
+	"z_zone.h"
+	"w_wad.h"
+
+1314741659 source:c:\documents and settings\kalaron\desktop\fixed\src\st_stuff.c
+	"doomdef.h"
+	"g_game.h"
+	"r_local.h"
+	"p_local.h"
+	"f_finale.h"
+	"st_stuff.h"
+	"i_video.h"
+	"v_video.h"
+	"z_zone.h"
+	"hu_stuff.h"
+	"s_sound.h"
+	"i_system.h"
+	"m_menu.h"
+	"g_input.h"
+	"hardware/hw_main.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\string.c
+	<stddef.h>
+	<string.h>
+	"doomdef.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\tables.c
+	"tables.h"
+	"doomdef.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\tmap.nas
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\tmap_mmx.nas
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\tmap_vc.nas
+
+1317425085 source:c:\documents and settings\kalaron\desktop\fixed\src\v_video.c
+	"doomdef.h"
+	"r_local.h"
+	"v_video.h"
+	"hu_stuff.h"
+	"r_draw.h"
+	"console.h"
+	"i_video.h"
+	"i_system.h"
+	"z_zone.h"
+	"m_misc.h"
+	"m_random.h"
+	"doomstat.h"
+	"p_local.h"
+	"g_game.h"
+	"hardware/hw_glob.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\vid_copy.s
+	"asm_defs.inc"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\asm_defs.inc
+
+1314550890 source:c:\documents and settings\kalaron\desktop\fixed\src\w_wad.c
+	<unistd.h>
+	<errno.h>
+	"lzf.h"
+	"doomdef.h"
+	"doomtype.h"
+	"w_wad.h"
+	"z_zone.h"
+	"i_video.h"
+	"d_netfil.h"
+	"dehacked.h"
+	"d_clisrv.h"
+	"r_defs.h"
+	"i_system.h"
+	"md5.h"
+	"r_data.h"
+	"hardware/hw_main.h"
+	"hardware/hw_glob.h"
+	"png.h"
+	"w_wad.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\win32\srb2win.rc
+	"resource.h"
+	"afxres.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\win32\resource.h
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\win32\afxres.h
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\win32\dx_error.c
+	<stdarg.h>
+	<windows.h>
+	<ddraw.h>
+	<dsound.h>
+	<mmsystem.h>
+	"dx_error.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\win32\dx_error.h
+	<windows.h>
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\win32\fabdxlib.c
+	"../doomdef.h"
+	<windows.h>
+	<windowsx.h>
+	"../i_system.h"
+	"dx_error.h"
+	"fabdxlib.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\win32\fabdxlib.h
+	<windows.h>
+	<ddraw.h>
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\win32\mid2strm.c
+	"../doomdef.h"
+	"../i_system.h"
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<windowsx.h>
+	<mmsystem.h>
+	"mid2strm.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\win32\mid2strm.h
+	<windows.h>
+	<windowsx.h>
+	<mmsystem.h>
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\win32\win_cd.c
+	"../doomdef.h"
+	"win_main.h"
+	<mmsystem.h>
+	"../command.h"
+	"../doomtype.h"
+	"../i_sound.h"
+	"../i_system.h"
+	"../s_sound.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\win32\win_dbg.c
+	<tchar.h>
+	"win_main.h"
+	"../doomdef.h"
+	"win_dbg.h"
+	"../m_argv.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\win32\win_dbg.h
+	<windows.h>
+	<excpt.h>
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\win32\win_dll.c
+	"../doomdef.h"
+	"../hardware/hw_drv.h"
+	"../hardware/hw3dsdrv.h"
+	"win_dll.h"
+	"win_main.h"
+
+1308632900 c:\documents and settings\kalaron\desktop\fixed\src\win32\win_dll.h
+	<windows.h>
+
+1309230794 source:c:\documents and settings\kalaron\desktop\fixed\src\win32\win_main.c
+	"../doomdef.h"
+	<stdio.h>
+	<winsock.h>
+	"../doomstat.h"
+	"resource.h"
+	"../m_argv.h"
+	"../d_main.h"
+	"../i_system.h"
+	"../keys.h"
+	"../console.h"
+	"fabdxlib.h"
+	"win_main.h"
+	"win_dbg.h"
+	"../i_sound.h"
+	"../g_input.h"
+	"../screen.h"
+	<zmouse.h>
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\win32\win_net.c
+	"../doomdef.h"
+	"../m_argv.h"
+	"../i_net.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\win32\win_snd.c
+	"../doomdef.h"
+	"win_main.h"
+	<mmsystem.h>
+	<dsound.h>
+	"../command.h"
+	"../i_sound.h"
+	"../s_sound.h"
+	"../i_system.h"
+	"../m_argv.h"
+	"../w_wad.h"
+	"../z_zone.h"
+	"../doomstat.h"
+	"dx_error.h"
+	"mid2strm.h"
+	"../hardware/hw3dsdrv.h"
+	"../hardware/hw3sound.h"
+	"win_dll.h"
+	<FMOD/fmoddyn.h>
+	<FMOD/fmod_errors.h>
+	<fmoddyn.h>
+	<fmod_errors.h>
+
+1314745649 source:c:\documents and settings\kalaron\desktop\fixed\src\win32\win_sys.c
+	"../doomdef.h"
+	<stdlib.h>
+	<signal.h>
+	<stdio.h>
+	<string.h>
+	<fcntl.h>
+	<io.h>
+	<stdarg.h>
+	<direct.h>
+	<mmsystem.h>
+	"../m_misc.h"
+	"../i_video.h"
+	"../i_sound.h"
+	"../i_system.h"
+	"../d_net.h"
+	"../g_game.h"
+	"../d_main.h"
+	"../m_argv.h"
+	"../w_wad.h"
+	"../z_zone.h"
+	"../g_input.h"
+	"../keys.h"
+	"../screen.h"
+	<zmouse.h>
+	"win_main.h"
+	"win_dbg.h"
+	"../i_joy.h"
+	<dinput.h>
+	"fabdxlib.h"
+
+1308632900 source:c:\documents and settings\kalaron\desktop\fixed\src\win32\win_vid.c
+	"../doomdef.h"
+	<stdlib.h>
+	<stdarg.h>
+	"../d_clisrv.h"
+	"../i_system.h"
+	"../m_argv.h"
+	"../v_video.h"
+	"../st_stuff.h"
+	"../i_video.h"
+	"../z_zone.h"
+	"fabdxlib.h"
+	"../doomstat.h"
+	"win_main.h"
+	"../command.h"
+	"../screen.h"
+	"win_dll.h"
+	"../hardware/hw_drv.h"
+	"../hardware/hw_main.h"
+
+1314550931 source:c:\documents and settings\kalaron\desktop\fixed\src\y_inter.c
+	"doomdef.h"
+	"doomstat.h"
+	"d_main.h"
+	"f_finale.h"
+	"g_game.h"
+	"hu_stuff.h"
+	"i_net.h"
+	"i_video.h"
+	"p_tick.h"
+	"r_defs.h"
+	"r_things.h"
+	"s_sound.h"
+	"st_stuff.h"
+	"v_video.h"
+	"w_wad.h"
+	"y_inter.h"
+	"z_zone.h"
+	"m_menu.h"
+	"m_misc.h"
+	"i_system.h"
+	"r_local.h"
+	"p_local.h"
+	"hardware/hw_main.h"
+
+1313177897 source:c:\documents and settings\kalaron\desktop\fixed\src\z_zone.c
+	"doomdef.h"
+	"doomstat.h"
+	"i_system.h"
+	"i_video.h"
+	"z_zone.h"
+	"m_misc.h"
+	"hardware/hw_main.h"
+
